@@ -15,6 +15,76 @@
 
     <main>
       <!-- cette balise va contenir tout le code de la page -->
+      <div id="headerconteneur">
+        <!-- premier élément flexbox à manipuler pour agencer le logo et liens -->
+        <div id="logo">
+          <img src="" alt="" />
+        </div>
+        <div id="navigation">
+          <nav>
+            <ul>
+              <li>
+                <a href="hebergements.html #hebergements">Hébergements</a>
+              </li>
+              <li><a href="activites.html #activites">Activités</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- fin de l'élément en-tête -->
+
+      <div id="searchform">
+        <!-- Début de l'élément recherche -->
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <h3>En plein centre-ville ou en pleine nature</h3>
+
+        <form method="post" action="traitement.php">
+          <p>
+            <label for="location">Localisation</label>
+            <input
+              type="search"
+              name="location"
+              id="location"
+              placeholder="Marseille,France"
+            />
+            <button type="submit"></button>
+          </p>
+        </form>
+        <form action="post" action="traitement.php">
+          <p>
+            <label for="filtres">Filtres</label>
+            <input type="checkbox" name="economique" id="economique" />
+            <label for="economique">Économique</label>
+            <input type="checkbox" name="famille" id="famille" />
+            <label for="famille">Familial</label>
+            <input type="checkbox" name="romance" id="romance" />
+            <label for="romance">Romantique</label>
+            <input type="checkbox" name="animaux" id="animaux" />
+            <label for="animaux">Animaux autorisés</label>
+          </p>
+        </form>
+      </div>
+
+      <p>Plus de 500 logements sont disponibles dans cette ville</p>
+
+      <!-- Fin de l'élément recherche -->
+
+      <section id="section1">
+        <!-- début du conteneur pour les photos -->
+        <article id="hebergementmarseille">
+          <!-- colonne de gauche pour les hébergements à Marseille -->
+          <h3>Hébergements à Marseille</h3>
+          <div class="photo1">
+            <!-- premier cadre -->
+            <h4>Auberge La Cannebière</h4>
+            <p>
+              Nuit à partir de 25€ <br />
+              étoiles
+              <!-- trouver comment faire les étoiles -->
+            </p>
+          </div>
+        </article>
+      </section>
     </main>
 
     <footer>
