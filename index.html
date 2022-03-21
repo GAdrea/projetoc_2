@@ -38,44 +38,70 @@
         <div id="searchform">
           <!-- Début de l'élément recherche -->
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-          <h3>En plein centre-ville ou en pleine nature</h3>
+          <h2>En plein centre-ville ou en pleine nature</h2>
 
           <form method="post" action="#">
             <p>
-              <label for="location">Localisation</label>
+              <label for="location"></label>
+              <img
+                src="assets/images/icones/location-dot-solid.svg"
+                alt="géolocalisation"
+              />
               <input
                 type="search"
                 name="location"
                 id="location"
                 placeholder="Marseille,France"
               />
-              <button type="submit"></button>
+              <button type="submit">Rechercher</button>
             </p>
           </form>
-          <form action="post" action="#">
-            <p>
-              <label>Filtres</label>
-              <input type="checkbox" name="economique" id="economique" />
-              <label for="economique">Économique</label>
-              <input type="checkbox" name="famille" id="famille" />
-              <label for="famille">Familial</label>
-              <input type="checkbox" name="romance" id="romance" />
-              <label for="romance">Romantique</label>
-              <input type="checkbox" name="animaux" id="animaux" />
-              <label for="animaux">Animaux autorisés</label>
-              <!-- toute la partie checkbox à refaire, remplacer par des div balise i avec des images  -->
-              <label>Économique</label>
-              <div id="econo">
-                <div id="ecoicone">
-                  <img src="assets/images/icones/money-bill-wave-solid.svg" alt="economique">
-                </div>
-                <p id="ecotext"><i>Économique</i></p>
+
+          <div id="filtresconteneur">
+            <div class="filtres">
+              <div class="icone">
+                <img
+                  src="assets/images/icones/money-bill-wave-solid.svg"
+                  alt="economique"
+                />
               </div>
-            </p>
-          </form>
+
+              <p class="filtretexte"><i>Économique</i></p>
+            </div>
+
+            <div class="filtres">
+              <div class="icone">
+                <img
+                  src="assets/images/icones/person-solid.svg"
+                  alt="famille"
+                />
+              </div>
+              <p class="filtretexte"><i>Familial</i></p>
+            </div>
+
+            <div class="filtres">
+              <div class="icone">
+                <img
+                  src="assets/images/icones/heart-solid.svg"
+                  alt="Romantique"
+                />
+              </div>
+              <p class="filtretexte"><i>Romantique</i></p>
+            </div>
+
+            <div class="filtres">
+              <div class="icone">
+                <img
+                  src="assets/images/icones/dog-solid.svg"
+                  alt="animaux autorisés"
+                />
+              </div>
+              <p class="filtretexte"><i>Animaux autorisés</i></p>
+            </div>
+          </div>
         </div>
 
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        <p id="note">Plus de 500 logements sont disponibles dans cette ville</p>
 
         <!-- Fin de l'élément recherche -->
       </section>
@@ -84,7 +110,7 @@
         <!-- début du conteneur pour les photos -->
         <article id="hebergementmarseille">
           <!-- colonne de gauche pour les hébergements à Marseille -->
-          <h2>Hébergements à Marseille</h2>
+          <h3>Hébergements à Marseille</h3>
           <div class="photo">
             <!-- premier cadre -->
             <img
@@ -92,7 +118,7 @@
               alt="La Cannebière"
             />
             <div>
-              <h3>Auberge La Cannebière</h3>
+              <h4>Auberge La Cannebière</h4>
               <p>Nuit à partir de <span class="prix">25€</span></p>
               <div>
                 <img
