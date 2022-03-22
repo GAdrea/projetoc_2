@@ -89,11 +89,32 @@ form img {
   display: flex;
 }
 
+.dot {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(191, 191, 248);
+  border-radius: 50%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
 #section1 {
   display: flex;
-  justify-content: space-between;
-
+  flex-flow: row wrap;
+  justify-content: space-around;
   background-color: rgb(245, 237, 237);
+  border-radius: 25px;
+  padding: 20px;
+  width: 900px;
+  height: 500px;
+}
+
+#hebergementmarseille{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  
 }
 
 .prix {
@@ -104,4 +125,18 @@ form img {
   display: flex;
   flex-direction: column;
   background-color: white;
+  border-radius: 25%;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#lespluspopulaires{
+  display: flex;
+  flex-flow: column wrap;
+  background-color: rgb(245, 237, 237);
+  border-radius: 25px;
+  padding: 20px;
+  width: 900px;
+  height: 500px;
 }
