@@ -34,9 +34,11 @@ a:hover {
 /* Fin de la partie 1  */
 
 /* Partie 2: Corps de la page */
+/* début de la section formulaire */
 
 #section0 {
   display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -46,6 +48,10 @@ h1 {
 h2 {
   font-size: 70%;
   font-weight: normal;
+}
+
+h3 {
+  width: 100%;
 }
 
 form img {
@@ -58,11 +64,8 @@ form img {
 }
 
 #searchform img {
-  border: 1px rgb(230, 227, 227) solid;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
   height: auto;
-  width: 30%;
+  width: 100%;
 }
 
 #searchform input {
@@ -80,41 +83,54 @@ form img {
 
 #filtresconteneur {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .filtres {
+  height: 100px;
   border: 2px black solid;
-  border-radius: 10%;
+  border-radius: 60px;
+  width: 19%;
   display: flex;
+  align-items: center;
 }
 
 .dot {
-  height: 50%;
-  width: 50%;
+  height: auto;
+  width: 49px;
   background-color: rgb(191, 191, 248);
   border-radius: 50%;
-  display: inline-block;
   display: flex;
-  justify-content: center;
+  align-content: center;
+  padding: 25px;
 }
+/* Fin de la section formulaire */
+
+/* Début de la section hébergement à Marseille photos et notation */
 
 #section1 {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
   background-color: rgb(245, 237, 237);
   border-radius: 25px;
   padding: 20px;
-  width: 900px;
-  height: 500px;
+  width: 40%;
+  height: auto;
 }
 
-#hebergementmarseille{
+#hebergementmarseille {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  
+  height: auto;
+  width: 100%;
+}
+
+.hebergement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 3px 3px 3px;
+  width: 30%;
 }
 
 .prix {
@@ -127,16 +143,38 @@ form img {
   background-color: white;
   border-radius: 25%;
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  height: auto;
 }
 
-#lespluspopulaires{
+.apercu {
+  height: auto;
+  width: 50%;
+}
+
+.star {
+  height: auto;
+  width: 15px;
+}
+
+#lespluspopulaires {
   display: flex;
   flex-flow: column wrap;
   background-color: rgb(245, 237, 237);
   border-radius: 25px;
   padding: 20px;
-  width: 900px;
-  height: 500px;
+  width: 60%;
+  height: auto;
+}
+
+/* Fin de la section hébergement */
+
+/* Début de la section activité */
+
+#section2 {
+  width: 100%;
+}
+
+#activitesmarseille{
+  display: flex;
+  flex-direction: column;
 }
