@@ -44,6 +44,7 @@
             <p>
               <label for="location"></label>
               <img
+                id="geolocal"
                 src="assets/images/icones/location-dot-solid.svg"
                 alt="géolocalisation"
               />
@@ -63,6 +64,7 @@
             <div class="filtres">
               <span class="dot"
                 ><img
+                  class="filtreicone"
                   src="assets/images/icones/money-bill-wave-solid.svg"
                   alt="economique"
               /></span>
@@ -72,7 +74,10 @@
 
             <div class="filtres">
               <span class="dot">
-                <img src="assets/images/icones/person-solid.svg" alt="famille"
+                <img
+                  class="filtreicone"
+                  src="assets/images/icones/person-solid.svg"
+                  alt="famille"
               /></span>
 
               <p class="filtretexte"><i>Familial</i></p>
@@ -81,6 +86,7 @@
             <div class="filtres">
               <span class="dot">
                 <img
+                  class="filtreicone"
                   src="assets/images/icones/heart-solid.svg"
                   alt="Romantique"
               /></span>
@@ -91,6 +97,7 @@
             <div class="filtres">
               <span class="dot"
                 ><img
+                  class="filtreicone"
                   src="assets/images/icones/dog-solid.svg"
                   alt="animaux autorisés"
               /></span>
@@ -113,6 +120,7 @@
           <!-- colonne de gauche pour les hébergements à Marseille -->
           <div class="hebergement">
             <!-- premier cadre -->
+
             <img
               class="apercu"
               src="assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -151,14 +159,14 @@
             </div>
           </div>
           <div class="hebergement">
-            <!-- premier cadre -->
+            <!-- second cadre -->
             <img
-              src="assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-              alt="La Cannebière"
+              src="assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+              alt="Hôtel du port"
             />
             <div>
-              <h4>Auberge La Cannebière</h4>
-              <p>Nuit à partir de <span class="prix">25€</span></p>
+              <h4>Hôtel du port</h4>
+              <p>Nuit à partir de <span class="prix">52€</span></p>
               <div>
                 <img
                   class="star"
@@ -190,14 +198,14 @@
           </div>
 
           <div class="hebergement">
-            <!-- premier cadre -->
+            <!-- troisième cadre -->
             <img
-              src="assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-              alt="La Cannebière"
+              src="assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+              alt="Hôtel les mouettes"
             />
             <div>
-              <h4>Auberge La Cannebière</h4>
-              <p>Nuit à partir de <span class="prix">25€</span></p>
+              <h4>Hôtel Les mouettes</h4>
+              <p>Nuit à partir de <span class="prix">76€</span></p>
               <div>
                 <img
                   class="star"
@@ -229,14 +237,14 @@
           </div>
 
           <div class="hebergement">
-            <!-- premier cadre -->
+            <!-- quatrième cadre -->
             <img
-              src="assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-              alt="La Cannebière"
+              src="assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+              alt="Hôtel de la mer"
             />
             <div>
-              <h4>Auberge La Cannebière</h4>
-              <p>Nuit à partir de <span class="prix">25€</span></p>
+              <h4>Hôtel de la mer</h4>
+              <p>Nuit à partir de <span class="prix">46€</span></p>
               <div>
                 <img
                   class="star"
@@ -268,14 +276,14 @@
           </div>
 
           <div class="hebergement">
-            <!-- premier cadre -->
+            <!-- cinquième cadre -->
             <img
-              src="assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-              alt="La Cannebière"
+              src="assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+              alt="Auberge Le Panier"
             />
             <div>
-              <h4>Auberge La Cannebière</h4>
-              <p>Nuit à partir de <span class="prix">25€</span></p>
+              <h4>Auberge Le Panier</h4>
+              <p>Nuit à partir de <span class="prix">23€</span></p>
               <div>
                 <img
                   class="star"
@@ -307,14 +315,14 @@
           </div>
 
           <div class="hebergement">
-            <!-- premier cadre -->
+            <!-- dernier cadre -->
             <img
-              src="assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-              alt="La Cannebière"
+              src="assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+              alt="Hôtel chez Anima"
             />
             <div>
-              <h4>Auberge La Cannebière</h4>
-              <p>Nuit à partir de <span class="prix">25€</span></p>
+              <h4>Hôtel chez Anima</h4>
+              <p>Nuit à partir de <span class="prix">96€</span></p>
               <div>
                 <img
                   class="star"
@@ -359,115 +367,119 @@
                 alt="chartline"
               />
             </div>
-            <div class="photoleft">
-              <h4>Hôtel Le soleil du matin</h4>
-              <p>
-                <img
-                  src="assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                  alt="Le soleil du matin"
-                />
 
-                Nuit à partir de <span class="prix">128€ </span>
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-              </p>
+            <div class="photoleft">
+              <img
+                src="assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                alt="Le soleil du matin"
+              />
+              <div class="textenotation">
+                <h4>Hôtel Le soleil du matin</h4>
+                <p>Nuit à partir de <span class="prix">128€ </span></p>
+                <p>
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                </p>
+              </div>
             </div>
 
             <div class="photoleft">
-              <h4>Au coeur de l'eau Chambres d'hôtes</h4>
-              <p>
-                <img
-                  src="assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                  alt="Au coeur de l'eau"
-                />
-
-                Nuit à partir de <span class="prix">71€ </span>
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-              </p>
+              <img
+                src="assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                alt="Au coeur de l'eau Chambres d'hôtes"
+              />
+              <div class="textenotation">
+                <h4>Au coeur de l'eau Chambres d'hôtes</h4>
+                <p>Nuit à partir de <span class="prix">71€</span></p>
+                <p>
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                </p>
+              </div>
             </div>
 
             <div class="photoleft">
-              <h4>Hôtel Tout bleu et Blanc</h4>
-              <p>
-                <img
-                  src="assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                  alt="Tout bleu et Blanc"
-                />
-
-                Nuit à partir de <span class="prix">68€ </span>
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-                <img
-                  class="star"
-                  src="assets/images/icones/star-solid.svg"
-                  alt="étoile bleue"
-                />
-              </p>
+              <img
+                src="assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                alt="Hôtel tout Bleu et Blanc"
+              />
+              <div class="textenotation">
+                <h4>Hôtel tout Bleu et Blanc</h4>
+                <p>Nuit à partir de <span class="prix">68€</span></p>
+                <p>
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                  <img
+                    class="star"
+                    src="assets/images/icones/star-solid.svg"
+                    alt="étoile bleue"
+                  />
+                </p>
+              </div>
             </div>
           </article>
         </aside>
