@@ -34,6 +34,13 @@ a:hover {
 /* Fin de la partie 1  */
 
 /* Partie 2: Corps de la page */
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
 /* début de la section formulaire */
 
 #section0 {
@@ -88,18 +95,23 @@ form img {
 }
 
 .filtres {
-  height: 100px;
-  border: 2px black solid;
+  height: 50px;
+  border: 3px rgb(211, 211, 211) solid;
   border-radius: 60px;
-  width: 19%;
+  width: 17%;
   display: flex;
   align-items: center;
+}
+
+.filtretexte {
+  text-align: center;
+  font-weight: bold;
 }
 
 .dot {
   height: auto;
   width: 49px;
-  background-color: rgb(191, 191, 248);
+  background-color: rgb(214, 243, 248);
   border-radius: 50%;
   display: flex;
   align-content: center;
@@ -110,19 +122,23 @@ form img {
 /* Début de la section hébergement à Marseille photos et notation */
 
 #section1 {
-  background-color: rgb(245, 237, 237);
+  background-color: rgb(255, 255, 255);
   border-radius: 25px;
   padding: 20px;
-  width: 40%;
+  width: auto;
   height: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 #hebergementmarseille {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   height: auto;
-  width: 100%;
+  width: 70%;
+  border-radius: 25px;
+  background-color: rgb(245, 237, 237);
 }
 
 .hebergement {
@@ -131,6 +147,7 @@ form img {
   align-items: center;
   box-shadow: 0 3px 3px 3px;
   width: 30%;
+  margin: auto;
 }
 
 .prix {
@@ -162,8 +179,17 @@ form img {
   background-color: rgb(245, 237, 237);
   border-radius: 25px;
   padding: 20px;
-  width: 60%;
+  width: 50%;
   height: auto;
+}
+
+#titrelink {
+  display: flex;
+  justify-content: space-between;
+}
+.charte {
+  height: auto;
+  width: 10%;
 }
 
 /* Fin de la section hébergement */
@@ -174,7 +200,58 @@ form img {
   width: 100%;
 }
 
-#activitesmarseille{
+#activitesmarseille {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+figure img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+/* Fin de la section 2 */
+
+/* Début du pied de page */
+
+#conteneurfooter {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(245, 237, 237);
+}
+
+#apropos {
   display: flex;
   flex-direction: column;
+}
+
+#apropos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#noshebergements {
+  display: flex;
+  flex-direction: column;
+}
+
+#noshebergements ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#assistance {
+  display: flex;
+  flex-direction: column;
+}
+
+#assistance ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
