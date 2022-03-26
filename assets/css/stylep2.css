@@ -49,16 +49,17 @@ main {
 }
 
 h1 {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 70%;
+  font-size: 100%;
   font-weight: normal;
 }
 
 h3 {
   width: 100%;
+  font-size: 180%;
 }
 
 form img {
@@ -73,7 +74,7 @@ form img {
 
 .filtreicone {
   height: auto;
-  width: 50%;
+  width: 100%;
 }
 
 #searchform input {
@@ -105,6 +106,11 @@ form img {
   align-items: center;
 }
 
+#filtretitre {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 .filtretexte {
   text-align: center;
   font-weight: bold;
@@ -112,13 +118,29 @@ form img {
 
 .dot {
   height: auto;
-  width: 49px;
+  width: 20px;
   background-color: rgb(214, 243, 248);
   border-radius: 50%;
   display: flex;
   align-content: center;
-  padding: 25px;
+  padding: 15px;
 }
+
+#infonote {
+  display: flex;
+  gap: 20px;
+  height: auto;
+  width: 100%;
+}
+
+.info {
+  height: auto;
+  width: 0.5%;
+  border: 2px black solid;
+  border-radius: 50%;
+  padding: 15px;
+}
+
 /* Fin de la section formulaire */
 
 /* Début de la section hébergement à Marseille photos et notation */
@@ -151,6 +173,7 @@ form img {
   width: 30%;
   margin: auto;
   background-color: white;
+  border-radius: 10%;
 }
 
 .prix {
@@ -168,7 +191,9 @@ form img {
 
 .apercu {
   height: auto;
-  width: 50%;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .star {
@@ -189,6 +214,9 @@ form img {
 .photoleft {
   display: flex;
   background-color: white;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 #titrelink {

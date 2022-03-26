@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/stylep2.css" />
     <link rel="icon" type="image/png" href="assets/images/icones/b-solid.svg" />
-    <!-- rajouter favicon -->
+
     <title>Booki</title>
   </head>
   <body>
@@ -60,7 +60,7 @@
 
           <div id="filtresconteneur">
             <!-- la balise icone était inutile, la supprimer permet une meilleure mise en page flexbox -->
-            <h2>Filtres</h2>
+            <h2 id="filtretitre">Filtres</h2>
             <div class="filtres">
               <span class="dot"
                 ><img
@@ -107,7 +107,16 @@
           </div>
         </div>
 
-        <p id="note">Plus de 500 logements sont disponibles dans cette ville</p>
+        <div id="infonote">
+          <img
+            class="info"
+            src="assets/images/icones/info-solid.svg"
+            alt="information"
+          />
+          <p id="note">
+            Plus de 500 logements sont disponibles dans cette ville
+          </p>
+        </div>
 
         <!-- Fin de l'élément recherche -->
       </section>
@@ -132,22 +141,22 @@
               <div>
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
@@ -161,6 +170,7 @@
           <div class="hebergement">
             <!-- second cadre -->
             <img
+              class="apercu"
               src="assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
               alt="Hôtel du port"
             />
@@ -170,27 +180,27 @@
               <div>
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
               </div>
@@ -200,6 +210,7 @@
           <div class="hebergement">
             <!-- troisième cadre -->
             <img
+              class="apercu"
               src="assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
               alt="Hôtel les mouettes"
             />
@@ -209,22 +220,22 @@
               <div>
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
@@ -239,6 +250,7 @@
           <div class="hebergement">
             <!-- quatrième cadre -->
             <img
+              class="apercu"
               src="assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
               alt="Hôtel de la mer"
             />
@@ -248,17 +260,17 @@
               <div>
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
@@ -278,6 +290,7 @@
           <div class="hebergement">
             <!-- cinquième cadre -->
             <img
+              class="apercu"
               src="assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
               alt="Auberge Le Panier"
             />
@@ -287,22 +300,22 @@
               <div>
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
@@ -317,6 +330,7 @@
           <div class="hebergement">
             <!-- dernier cadre -->
             <img
+              class="apercu"
               src="assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
               alt="Hôtel chez Anima"
             />
@@ -326,27 +340,27 @@
               <div>
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
                 <img
                   class="star"
-                  src="assets/images/icones/star-solid.svg"
+                  src="assets/images/icones/star-solid-blue.svg"
                   alt="étoile bleue"
                 />
               </div>
@@ -379,27 +393,27 @@
                 <p>
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                 </p>
@@ -417,22 +431,22 @@
                 <p>
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
@@ -455,22 +469,22 @@
                 <p>
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
                     class="star"
-                    src="assets/images/icones/star-solid.svg"
+                    src="assets/images/icones/star-solid-blue.svg"
                     alt="étoile bleue"
                   />
                   <img
