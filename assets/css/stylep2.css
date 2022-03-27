@@ -99,6 +99,7 @@ form img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 63%;
 }
 
 .filtres {
@@ -268,7 +269,32 @@ Permet de cibler un élément enfant sans avoir à définir une classe ou id
 */
 #activitesmarseille figure:nth-child(1) {
   height: auto;
+  width: 50%;
+}
+
+#activitesmarseille figure:nth-child(2) {
+  height: auto;
+  width: 70%;
+}
+
+#activitesmarseille figure:nth-child(3) {
+  height: auto;
   width: 30%;
+}
+
+#activitesmarseille figure:nth-child(4) {
+  height: auto;
+  width: 90%;
+}
+
+#activitesmarseille figure:nth-child(5) {
+  height: auto;
+  width: 20%;
+}
+
+#activitesmarseille figure:nth-child(6) {
+  height: auto;
+  width: 80%;
 }
 
 #firstbloc {
