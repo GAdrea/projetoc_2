@@ -120,6 +120,7 @@ form img {
   font-weight: bold;
 }
 
+
 .dot {
   height: auto;
   width: 20px;
@@ -324,6 +325,8 @@ Permet de cibler un élément enfant sans avoir à définir une classe ou id
 #fourthbloc figure img {
   width: 100%;
   height: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 /* Fin de la section 2 */
