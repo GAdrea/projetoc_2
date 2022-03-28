@@ -9,10 +9,9 @@
   padding: 20px;
 }
 
-#logo,
-img {
+.logo {
   height: auto;
-  width: 30%;
+  width: 50%;
 }
 
 #navigation ul {
@@ -265,39 +264,17 @@ form img {
   background-color: red;
 }
 Permet de cibler un élément enfant sans avoir à définir une classe ou id
-
 */
-#activitesmarseille figure:nth-child(1) {
-  height: auto;
-  width: 50%;
-}
-
-#activitesmarseille figure:nth-child(2) {
-  height: auto;
-  width: 70%;
-}
-
-#activitesmarseille figure:nth-child(3) {
-  height: auto;
-  width: 30%;
-}
-
-#activitesmarseille figure:nth-child(4) {
-  height: auto;
-  width: 90%;
-}
-
-#activitesmarseille figure:nth-child(5) {
-  height: auto;
-  width: 20%;
-}
-
-#activitesmarseille figure:nth-child(6) {
-  height: auto;
-  width: 80%;
-}
 
 #firstbloc {
+  width: 23%;
+  height: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border: 1px solid blue;
+}
+
+#firstbloc figure img {
   width: 100%;
   height: auto;
   border-top-left-radius: 25px;
@@ -305,11 +282,29 @@ Permet de cibler un élément enfant sans avoir à définir une classe ou id
 }
 
 #secondbloc {
+  width: 23%;
+  height: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border: 1px solid blue;
+}
+
+#secondbloc figure img {
+  width: 100%;
+  height: auto;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
 
 #thirdbloc {
+  width: 23%;
+  height: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border: 1px solid blue;
+}
+
+#thirdbloc figure img {
   width: 100%;
   height: auto;
   border-top-left-radius: 25px;
@@ -317,14 +312,18 @@ Permet de cibler un élément enfant sans avoir à définir une classe ou id
 }
 
 #fourthbloc {
+  width: 23%;
+  height: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border: 1px solid blue;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
 
-figure img {
+#fourthbloc figure img {
   width: 100%;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  height: auto;
 }
 
 /* Fin de la section 2 */
