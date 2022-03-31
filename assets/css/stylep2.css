@@ -69,14 +69,12 @@ h4 {
   width: 100%;
 }
 
-form img {
-  background-color: rgb(238, 233, 233);
-}
-
 #geolocal {
   height: 20px;
-  width: 20px;
+  width: 4%;
   background-color: rgb(238, 233, 233);
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 15%;
 }
 
 .filtreicone {
@@ -313,6 +311,13 @@ form img {
 Permet de cibler un élément enfant sans avoir à définir une classe ou id
 */
 
+figcaption {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  box-shadow: 0 3px 3px 3px lightgray;
+}
+
 #firstbloc {
   width: 23%;
   height: auto;
@@ -328,6 +333,8 @@ Permet de cibler un élément enfant sans avoir à définir une classe ou id
   height: auto;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  background-color: white;
+  box-shadow: 0 3px 3px 3px lightgray;
 }
 
 #secondbloc {
@@ -368,8 +375,6 @@ Permet de cibler un élément enfant sans avoir à définir une classe ou id
 #fourthbloc {
   width: 23%;
   height: auto;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   display: flex;
