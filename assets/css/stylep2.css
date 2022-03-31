@@ -1,11 +1,12 @@
 /* Mon fichier CSS*/
-/* Les balises seront écrites dans l'ordre d'arrivée selon le code html */
+/* Les balises seront écrites dans l'ordre d'arrivée selon le code html (Note: commentaire inutile étant donné les propriétés du CSS */
+
 
 * {
   border: 1px red solid;
 }
 
-/* Partie 1: l'en-tête */
+/********************************* Partie 1: l'en-tête ************************************/
 
 #headerconteneur {
   display: flex;
@@ -35,9 +36,9 @@ a:hover {
   border-top: 2px blue solid;
 }
 
-/* Fin de la partie 1  */
+/********************************* Fin de la partie 1  ************************************/
 
-/* Partie 2: Corps de la page */
+/******************************** Partie 2: Corps de la page ******************************/
 
 main {
   display: flex;
@@ -159,9 +160,9 @@ h4 {
   padding: 15px;
 }
 
-/* Fin de la section formulaire */
+/*************************** Fin de la section formulaire *********************************/
 
-/* Début de la section hébergement à Marseille photos et notation */
+/**************** Début de la section hébergement à Marseille photos et notation **********/
 
 #section1 {
   background-color: rgb(255, 255, 255);
