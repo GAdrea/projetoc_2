@@ -123,6 +123,12 @@ form img {
   font-size: 1.5em;
 }
 
+.filtres div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .filtretexte {
   text-align: center;
   font-weight: bold;
