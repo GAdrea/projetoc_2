@@ -185,7 +185,7 @@ h4 {
   padding: 2px;
 }
 
-.hebergement {
+.hebergement {  
   display: flex;
   flex-direction: column;
   align-items: center;
