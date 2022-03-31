@@ -32,6 +32,7 @@ a {
 
 a:hover {
   color: blue;
+  border-top: 2px blue solid;
 }
 
 /* Fin de la partie 1  */
@@ -316,10 +317,11 @@ figcaption {
   border-bottom-right-radius: 15px;
   background-color: white;
   box-shadow: 0 3px 3px 3px lightgray;
+  font-weight: bold;
 }
 
 #firstbloc {
-  width: 23%;
+  width: 30%;
   height: auto;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -338,7 +340,7 @@ figcaption {
 }
 
 #secondbloc {
-  width: 23%;
+  width: 19%;
   height: auto;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -356,7 +358,7 @@ figcaption {
 }
 
 #thirdbloc {
-  width: 23%;
+  width: 30%;
   height: auto;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -373,7 +375,7 @@ figcaption {
 }
 
 #fourthbloc {
-  width: 23%;
+  width: 20%;
   height: auto;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
