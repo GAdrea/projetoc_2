@@ -168,7 +168,7 @@ form img {
   flex-flow: row wrap;
   justify-content: space-around;
   height: auto;
-  width: 66%;
+  width: 63%;
   border-radius: 25px;
   background-color: rgb(245, 237, 237);
   padding: 2px;
@@ -179,8 +179,8 @@ form img {
   flex-direction: column;
   align-items: center;
   box-shadow: 0 3px 3px 3px lightgray;
-  width: 30%;
-  height: 233px;
+  width: 28%;
+  height: 248px;
   margin: 3px;
   background-color: white;
   border-radius: 10%;
