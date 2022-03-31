@@ -92,10 +92,11 @@ form img {
 #searchform button {
   color: white;
   background-color: #0065fc;
-  border-top-right-radius: 25%;
-  border-bottom-right-radius: 25%;
-  height: 30px;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  height: 42px;
   width: 10%;
+  font-size: 1.2em;
 }
 
 #filtresconteneur {
