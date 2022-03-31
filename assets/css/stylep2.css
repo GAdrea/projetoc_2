@@ -114,6 +114,10 @@ form img {
   align-items: center;
 }
 
+.filtres:hover {
+  background-color: rgba(63, 140, 255, 0.289);
+}
+
 #filtretitre {
   font-weight: bold;
   font-size: 1.5em;
