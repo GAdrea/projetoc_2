@@ -32,8 +32,8 @@ a {
 }
 
 a:hover {
-  color: blue;
-  border-top: 2px blue solid;
+  color: #0065fc;
+  border-top: 2px #0065fc solid;
 }
 
 /********************************* Fin de la partie 1  ************************************/
@@ -165,7 +165,7 @@ h4 {
 /**************** Début de la section hébergement à Marseille photos et notation **********/
 
 #section1 {
-  background-color: rgb(255, 255, 255);
+  background-color: #F2F2F2;
   border-radius: 25px;
   width: 100%;
   height: auto;
@@ -241,7 +241,7 @@ h4 {
 #lespluspopulaires {
   display: flex;
   flex-flow: column wrap;
-  background-color: rgb(245, 237, 237);
+  background-color: #F2F2F2;
   border-radius: 25px;
   padding: 20px;
   width: 29%;
