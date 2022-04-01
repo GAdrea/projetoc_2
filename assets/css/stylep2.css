@@ -10,7 +10,7 @@
 #headerconteneur {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding-left: 20px;
 }
 
 .logo {
@@ -51,6 +51,7 @@ main {
 #section0 {
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
 }
 
 h1 {
@@ -165,13 +166,14 @@ h4 {
 /**************** Début de la section hébergement à Marseille photos et notation **********/
 
 #section1 {
-  background-color: #f2f2f2;
+  background-color: white;
   border-radius: 25px;
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-left: 7px;
 }
 
 #hebergementmarseille {
@@ -181,7 +183,7 @@ h4 {
   height: auto;
   width: 63%;
   border-radius: 25px;
-  background-color: rgb(245, 237, 237);
+  background-color: #f2f2f2;
   padding: 2px;
 }
 
@@ -295,6 +297,7 @@ i {
 
 #section2 {
   width: 100%;
+  padding-left: 7px;
 }
 
 #activitesmarseille {
