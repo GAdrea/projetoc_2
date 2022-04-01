@@ -3,6 +3,12 @@
 
 * {
   border: 1px red solid;
+  font-family: "raleway" "Times New Roman", Times, serif;
+}
+
+@font-face {
+  font-family: "raleway";
+  src: url(../../fonts/Raleway-VariableFont_wght.ttf);
 }
 
 /********************************* Partie 1: l'en-tête ************************************/
