@@ -277,6 +277,10 @@ i {
   height: auto;
 }
 
+#lespluspopulaires #populaire .noir i {
+  color: black;
+}
+
 .photoleft {
   display: flex;
   background-color: white;
