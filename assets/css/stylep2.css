@@ -71,7 +71,7 @@ h2 {
 
 h3 {
   width: 100%;
-  font-size: 180%;
+  font-size: 26px;
 }
 
 h4 {
@@ -97,7 +97,7 @@ form .noir i {
 }
 
 #searchform input {
-  height: 30px;
+  height: 37px;
   width: 15%;
 }
 
@@ -114,6 +114,7 @@ form .noir i {
 #filtresconteneur {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   width: 72%;
 }
@@ -133,7 +134,7 @@ form .noir i {
 
 #filtretitre {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 23px;
 }
 
 .filtres div {
