@@ -162,7 +162,7 @@ form .noir i {
   display: flex;
   gap: 20px;
   height: auto;
-  width: 125%;
+  width: 100%;
   align-items: center;
 }
 
@@ -223,7 +223,7 @@ form .noir i {
   border: 5px solid white;
 }
 
-.hebergement div {
+.hebergement > div {
   width: 100%;
   height: auto;
 }
