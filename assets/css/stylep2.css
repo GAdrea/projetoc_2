@@ -103,10 +103,10 @@ form .noir i {
 #searchform button {
   color: white;
   background-color: #0065fc;
-  border-top-right-radius: 15%;
-  border-bottom-right-radius: 15%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   height: 42px;
-  width: 13%;
+  width: 18%;
   font-size: 1.2em;
 }
 
