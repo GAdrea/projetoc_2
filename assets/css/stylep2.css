@@ -80,6 +80,7 @@ h4 {
 
 form .noir i {
   color: black;
+  background-color: #dbdbdb;
 }
 
 #geolocal {
@@ -161,7 +162,8 @@ form .noir i {
   display: flex;
   gap: 20px;
   height: auto;
-  width: 100%;
+  width: 125%;
+  align-items: center;
 }
 
 .info {
@@ -170,6 +172,16 @@ form .noir i {
   border: 2px black solid;
   border-radius: 50%;
   padding: 15px;
+}
+
+#iconenote {
+  border: 2px #dbdbdb solid;
+  border-radius: 50%;
+  height: auto;
+  width: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*************************** Fin de la section formulaire *********************************/
