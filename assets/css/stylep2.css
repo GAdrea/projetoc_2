@@ -216,7 +216,7 @@ form .noir i {
   align-items: center;
   box-shadow: 0 3px 3px 3px lightgray;
   width: 28%;
-  height: 248px;
+  height: 245px;
   margin: 3px;
   background-color: white;
   border-radius: 10%;
@@ -230,12 +230,12 @@ form .noir i {
 
 .description {
   width: 100%;
-  height: auto;
+  height: 92px;
   display: flex;
   flex-direction: column;
 }
 
-.description div .gris i {
+.description .rang .gris i {
   color: #d9d9d9;
 }
 
@@ -262,6 +262,11 @@ form .noir i {
   border-top-right-radius: 25px;
 }
 
+.rang {
+  padding: 0%;
+  margin: 0%;
+}
+
 i {
   color: #0065fc;
 }
@@ -276,7 +281,7 @@ i {
   height: auto;
 }
 
-#lespluspopulaires #populaire .noir i {
+#lespluspopulaires #titrelink .noir i {
   color: black;
 }
 
