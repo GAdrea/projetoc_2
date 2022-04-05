@@ -106,7 +106,7 @@ form .noir i {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   height: 42px;
-  width: 18%;
+  width: 9%;
   font-size: 1.2em;
 }
 
@@ -115,7 +115,7 @@ form .noir i {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 72%;
+  width: 62%;
 }
 
 .filtres {
@@ -291,13 +291,8 @@ i {
   margin: 10px;
   border-radius: 20px;
   padding: 16px;
-  height: auto;
+  height: 171px;
   width: 87%;
-}
-
-.photoleft div {
-  display: flex;
-  width: 100%;
 }
 
 .photoleft:hover {
