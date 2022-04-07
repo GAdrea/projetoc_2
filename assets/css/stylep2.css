@@ -367,7 +367,7 @@ figcaption {
   border-top-right-radius: 25px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 #firstbloc figure img {
@@ -404,7 +404,7 @@ figcaption {
   border-top-right-radius: 25px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 #thirdbloc figure img {
