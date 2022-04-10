@@ -291,6 +291,7 @@ form p label i {
   padding-left: 20px;
   padding-top: 20px;
   margin: 0%;
+  padding-bottom: 20px;
 }
 
 .hebergement h4 {
@@ -373,7 +374,6 @@ i {
   align-items: center;
   margin: 0;
   padding-left: 20px;
-  padding-bottom: 20px;
 }
 .charte {
   height: auto;
