@@ -555,6 +555,86 @@ figcaption {
   }
   Modifier le body n'est pas avisé
   */
+
+  /*********************************** Header responsive *******************************/
+
+  header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  #navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #navigation ul a:hover {
+    border-bottom: 2px #0065fc solid;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  #navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #navigation ul a:hover {
+    border-bottom: 2px #0065fc solid;
+    padding-bottom: 10px;
+  }
+
+  #filtresconteneur {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #lespluspopulaires {
+    width: 90%;
+  }
+
+  #hebergementmarseille {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .hebergement {
+    width: 90%;
+  }
+
+  #section2 {
+    width: 100%;
+  }
+
+  #activitesmarseille {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
 }
 
 /******************************************** Fin de la partie responsive ****************************************/
