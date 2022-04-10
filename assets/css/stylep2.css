@@ -13,6 +13,13 @@ figure {
   src: url("../../fonts/Raleway-VariableFont_wght.ttf");
 }
 
+#searchform,
+#filtresconteneur,
+#infonote {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
 /*********************************************** Partie 1: l'en-tête ********************************************/
 
 #headerconteneur {
@@ -276,7 +283,9 @@ form p label i {
 }
 
 #hebergementmarseille h3 {
-  padding: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin: 0%;
 }
 
 .hebergement h4 {
@@ -352,6 +361,10 @@ i {
 #titrelink {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 .charte {
   height: auto;
