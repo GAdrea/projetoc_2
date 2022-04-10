@@ -20,6 +20,10 @@ figure {
   margin-top: 10px;
 }
 
+body {
+  margin: 0%;
+}
+
 /*********************************************** Partie 1: l'en-tête ********************************************/
 
 #headerconteneur {
@@ -106,7 +110,7 @@ form p label {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #aaa;
+  background-color: #f2f2f2;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -155,7 +159,7 @@ form p label i {
   height: 50px;
   border: 1px rgb(211, 211, 211) solid;
   border-radius: 100px;
-  width: 22%;
+  width: 19%;
   display: flex;
   align-items: center;
   transition: background-color 0.6s ease-in-out;
@@ -180,6 +184,7 @@ form p label i {
   text-align: center;
   font-weight: bold;
   color: black;
+  padding-left: 10px;
 }
 
 .dot {
@@ -260,6 +265,7 @@ form p label i {
   background-color: white;
   border-radius: 10%;
   border: 5px solid white;
+  transition: background-color 0.6s ease-in-out;
 }
 
 .hebergement > div {
@@ -331,9 +337,10 @@ i {
   background-color: white;
   margin: 10px;
   border-radius: 20px;
-  padding: 16px;
+  padding: 5px;
   height: 171px;
   width: 87%;
+  transition: background-color 0.6s ease-in-out;
 }
 
 .photoleft:hover {
@@ -352,6 +359,7 @@ i {
   flex-direction: column;
   width: 46%;
   height: auto;
+  padding-left: 10px;
 }
 
 .textenotation p .gris i {
@@ -390,6 +398,11 @@ i {
 
 #activitesmarseille figure {
   width: 100%;
+}
+
+#activitesmarseille figure figcaption:hover {
+  background-color: rgba(63, 140, 255, 0.289);
+  transition: background-color 0.6s ease-in-out;
 }
 
 /*
