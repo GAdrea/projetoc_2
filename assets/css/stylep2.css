@@ -8,9 +8,10 @@
 figure {
   margin: 0;
 }
+
 @font-face {
   font-family: "raleway";
-  src: url("../../fonts/Raleway-VariableFont_wght.ttf");
+  src: url("../../fonts/Raleway-Italic-VariableFont_wght.ttf");
 }
 
 #searchform,
@@ -18,10 +19,6 @@ figure {
 #infonote {
   padding-top: 10px;
   margin-top: 10px;
-}
-
-body {
-  margin: 0%;
 }
 
 /*********************************************** Partie 1: l'en-tête ********************************************/
@@ -235,7 +232,7 @@ form p label i {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-left: 7px;
+  padding-left: 5px;
 }
 
 #hebergementmarseille {
@@ -248,9 +245,11 @@ form p label i {
   background-color: #f2f2f2;
   padding: 2px;
 }
+
 #activitesmarseille figure {
   width: 100%;
 }
+
 #activitesmarseille figure img {
   width: 100% !important;
 }
@@ -298,6 +297,7 @@ form p label i {
   width: 100%;
   margin: 0px;
 }
+
 .prix {
   font-weight: bold;
 }
@@ -500,13 +500,16 @@ figcaption {
 
 #conteneurfooter {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-color: #f2f2f2;
+  width: auto;
+  padding-left: 50px;
 }
 
 #apropos {
   display: flex;
   flex-direction: column;
+  width: 30%;
 }
 
 #apropos ul {
@@ -518,6 +521,7 @@ figcaption {
 #noshebergements {
   display: flex;
   flex-direction: column;
+  width: 30%;
 }
 
 #noshebergements ul {
@@ -529,6 +533,7 @@ figcaption {
 #assistance {
   display: flex;
   flex-direction: column;
+  width: 20%;
 }
 
 #assistance ul {
