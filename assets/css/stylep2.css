@@ -612,6 +612,19 @@ figcaption {
 
   /******************************************* Fin du header responsive ************************************/
 
+  form p {
+    display: flex;
+    justify-content: center;
+  }
+
+  #searchform input {
+    width: 50%;
+  }
+
+  #searchform button{
+    width: 15%;
+  }
+
   #filtresconteneur {
     display: flex;
     flex-flow: row wrap;
