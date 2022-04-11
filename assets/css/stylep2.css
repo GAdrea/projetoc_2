@@ -616,6 +616,8 @@ figcaption {
 
   /******************************************* Fin du header responsive ************************************/
 
+  /************************************* Début du formulaire responsive *************************************/
+
   form p {
     display: flex;
     justify-content: center;
@@ -627,11 +629,26 @@ figcaption {
 
   #searchform button {
     width: 15%;
+    display: none;
   }
+
+  #searchform .responsive {
+    display: block;
+    width: 15%;
+  }
+
+  /************************************** Fin du formulaire responsive ***************************************/
+
+  /*************************************** Début du filtre responsive  ************************************/
 
   #filtresconteneur {
     display: flex;
     flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .filtres {
+    width: 45%;
   }
 
   /*************************************************** Début section1 **************************************/
