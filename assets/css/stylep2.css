@@ -144,6 +144,10 @@ form p label i {
   font-size: 1.2em;
 }
 
+#searchform .responsive {
+  display: none;
+}
+
 #filtresconteneur {
   display: flex;
   justify-content: space-between;
@@ -621,7 +625,7 @@ figcaption {
     width: 50%;
   }
 
-  #searchform button{
+  #searchform button {
     width: 15%;
   }
 
