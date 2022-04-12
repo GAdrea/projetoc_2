@@ -515,6 +515,7 @@ figcaption {
   background-color: #f2f2f2;
   width: auto;
   padding-left: 50px;
+  margin-bottom: 50px;
 }
 
 #apropos {
@@ -659,19 +660,30 @@ figcaption {
     width: 100%;
   }
 
+  #filtretitre {
+    width: 100%;
+  }
+
   .filtres {
-    width: 45%;
+    width: 55%;
   }
 
   /*************************************************** Début section1 **************************************/
 
   #lespluspopulaires {
     width: 100%;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+  }
+
+  .photoleft {
+    width: 90%;
   }
 
   #hebergementmarseille {
     order: 2;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-flow: column wrap;
     background-color: white;
@@ -697,7 +709,7 @@ figcaption {
   #secondbloc,
   #thirdbloc,
   #fourthbloc {
-    width: 100%;
+    width: 97%;
     margin-bottom: 20px;
   }
 
