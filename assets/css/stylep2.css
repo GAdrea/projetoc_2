@@ -134,6 +134,12 @@ form p label i {
   width: 15%;
 }
 
+::placeholder {
+  font-weight: bold;
+  font-size: 120%;
+  color: black;
+}
+
 #searchform button {
   color: white;
   background-color: #0065fc;
@@ -598,15 +604,15 @@ figcaption {
     align-items: center;
   }
 
-  #logo {
+  #logo img {
     display: flex;
     justify-content: center;
   }
 
   #navigation {
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
   }
 
   #navigation ul a:hover {
@@ -618,8 +624,15 @@ figcaption {
 
   /************************************* Début du formulaire responsive *************************************/
 
+  #searchform h1 {
+    font-size: 160%;
+  }
+
+  #searchform h2 {
+    font-size: 120%;
+  }
+
   form p {
-    display: flex;
     justify-content: center;
   }
 
@@ -642,7 +655,6 @@ figcaption {
   /*************************************** Début du filtre responsive  ************************************/
 
   #filtresconteneur {
-    display: flex;
     flex-flow: row wrap;
     width: 100%;
   }
@@ -677,7 +689,6 @@ figcaption {
   }
 
   #activitesmarseille {
-    display: flex;
     flex-flow: column wrap;
     width: 100%;
   }
