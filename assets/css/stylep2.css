@@ -45,6 +45,8 @@ figure {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  font-size: 18px;
+  padding-right: 29px;
 }
 
 #navigation ul a:hover {
@@ -140,6 +142,7 @@ form p label i {
 #searchform input {
   height: 42px;
   width: 15%;
+  border: 0.1px solid rgb(238, 233, 233);
 }
 
 ::placeholder {
@@ -156,6 +159,7 @@ form p label i {
   height: 42px;
   width: 9%;
   font-size: 1.2em;
+  border: none;
 }
 
 #searchform .responsive {
@@ -200,6 +204,7 @@ form p label i {
   font-weight: bold;
   color: black;
   padding-left: 10px;
+  font-size: 19px;
 }
 
 .dot {
@@ -218,6 +223,7 @@ form p label i {
   height: auto;
   width: 100%;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .info {
@@ -335,6 +341,11 @@ form p label i {
 
 i {
   color: #0065fc;
+}
+
+#hebergementmarseille .plus {
+  font-size: 20px;
+  padding-left: 30px;
 }
 
 #lespluspopulaires {
@@ -536,6 +547,10 @@ figcaption {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 9px;
 }
 
 #noshebergements {
@@ -548,6 +563,10 @@ figcaption {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 9px;
 }
 
 #assistance {
@@ -560,6 +579,10 @@ figcaption {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 9px;
 }
 
 /**************************************** Début de la partie responsive ******************************************/
