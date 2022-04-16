@@ -611,6 +611,7 @@ figcaption {
     display: flex;
     justify-content: center;
     margin: auto;
+    padding-left: 50px;
   }
 
   #logo .logo {
@@ -630,7 +631,186 @@ figcaption {
     padding-bottom: 10px;
   }
 
+  #navigation ul li {
+    width: 50%;
+    text-align: center;
+  }
+
+  #navigation ul a:hover {
+    border-bottom: 2px #0065fc solid;
+    padding-bottom: 10px;
+  }
+
   /******************************************* Fin du header responsive ************************************/
+
+  /************************************* Début du formulaire responsive *************************************/
+
+  #searchform h1 {
+    font-size: 160%;
+  }
+
+  #searchform h2 {
+    font-size: 120%;
+  }
+
+  form p {
+    justify-content: center;
+  }
+
+  #searchform input {
+    width: 50%;
+  }
+
+  #searchform button {
+    width: 15%;
+    display: none;
+  }
+
+  #searchform .responsive {
+    display: block;
+    width: 15%;
+  }
+
+  /************************************** Fin du formulaire responsive ***************************************/
+
+  /*************************************** Début du filtre responsive  ************************************/
+
+  #filtresconteneur {
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 10px;
+  }
+
+  #filtretitre {
+    width: 100%;
+  }
+
+  .filtres {
+    width: 55%;
+  }
+
+  #note{
+    font-size: 19px;
+  }
+
+  /*************************************************** Début section1 **************************************/
+
+  #lespluspopulaires {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+  }
+
+  #titrelink .noir{
+    padding-right: 23px;
+    font-size: 26px;
+  }
+
+  .photoleft {
+    width: 90%;
+  }
+
+  #hebergementmarseille {
+    order: 2;
+    width: 95%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: white;
+  }
+
+  .hebergement {
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 10px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #section2 {
+    width: 100%;
+  }
+
+  #activitesmarseille {
+    flex-flow: column wrap;
+    width: 100%;
+  }
+
+  #firstbloc,
+  #secondbloc,
+  #thirdbloc,
+  #fourthbloc {
+    width: 97%;
+    margin-bottom: 20px;
+  }
+
+  #firstbloc figure img {
+    width: 393px;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #secondbloc figure {
+    margin-bottom: 20px;
+  }
+
+  #secondbloc figure img {
+    width: 393px;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  /**************************************** Début du footer responsive *****************************************/
+
+  #conteneurfooter {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+
+  #apropos {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  #apropos ul {
+    list-style: none;
+    padding-bottom: 0;
+    margin: 0;
+  }
+
+  #noshebergements {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  #noshebergements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #assistance {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  #assistance ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/******************************************** Fin de la partie responsive ****************************************/
+
+
 }
 
 @media screen and (max-width: 992px) {
