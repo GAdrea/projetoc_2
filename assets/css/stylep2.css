@@ -689,7 +689,7 @@ figcaption {
     width: 55%;
   }
 
-  #note{
+  #note {
     font-size: 19px;
   }
 
@@ -702,13 +702,14 @@ figcaption {
     border-radius: 0%;
   }
 
-  #titrelink .noir{
+  #titrelink .noir {
     padding-right: 23px;
     font-size: 26px;
   }
 
   .photoleft {
     width: 90%;
+    height: 150px;
   }
 
   #hebergementmarseille {
@@ -741,6 +742,7 @@ figcaption {
   #fourthbloc {
     width: 97%;
     margin-bottom: 20px;
+    gap: 23px;
   }
 
   #firstbloc figure img {
@@ -757,7 +759,15 @@ figcaption {
 
   #secondbloc figure img {
     width: 393px;
-    height: auto;
+    height: 220px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #thirdbloc figure img {
+    width: 393px;
+    height: 220px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 0 0px 0px 0px;
@@ -781,6 +791,7 @@ figcaption {
     list-style: none;
     padding-bottom: 0;
     margin: 0;
+    font-size: 130%;
   }
 
   #noshebergements {
@@ -793,6 +804,7 @@ figcaption {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 130%;
   }
 
   #assistance {
@@ -805,13 +817,11 @@ figcaption {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 130%;
   }
 }
 
 /******************************************** Fin de la partie responsive ****************************************/
-
-
-}
 
 @media screen and (max-width: 992px) {
   /*********************************************** Header responsive ************************************/
