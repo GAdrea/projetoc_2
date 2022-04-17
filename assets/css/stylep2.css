@@ -2,8 +2,18 @@
 /* Les balises seront écrites dans l'ordre d'arrivée selon le code html (Note: commentaire inutile étant donné les propriétés du CSS */
 
 * {
-  font-family: "raleway" "Times New Roman", Times, serif;
+  font-family: "raleway", "ralewayvariable" "Times New Roman", Times, serif;
   scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "raleway";
+  src: url("../../fonts/Raleway-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "ralewayvariable";
+  src: url(../../fonts/Raleway-VariableFont_wght.ttf);
 }
 
 body {
@@ -12,11 +22,6 @@ body {
 
 figure {
   margin: 0;
-}
-
-@font-face {
-  font-family: "raleway";
-  src: url("../../fonts/Raleway-Italic-VariableFont_wght.ttf");
 }
 
 #searchform,
@@ -668,7 +673,16 @@ figcaption {
 
   #searchform .responsive {
     display: block;
+    background: #0065fc url(.responsive);
     width: 15%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .blanc {
+    color: white;
   }
 
   /************************************** Fin du formulaire responsive ***************************************/
@@ -689,17 +703,38 @@ figcaption {
     width: 55%;
   }
 
+  .filtres:nth-child(1) {
+    width: 50%;
+  }
+
+  .filtres:nth-child(3) {
+    width: 50%;
+  }
+
+  .filtres:nth-child(4) {
+    width: 71%;
+  }
+
+  #iconenote {
+    width: 27px;
+    height: 27px;
+  }
+
   #note {
     font-size: 19px;
   }
 
-  /*************************************************** Début section1 **************************************/
+  /*************************************************** Début section1 responsive **************************************/
 
   #lespluspopulaires {
     width: 100%;
     padding: 0%;
     margin: 0%;
     border-radius: 0%;
+  }
+
+  #lespluspopulaires .carte {
+    font-size: 100%;
   }
 
   #titrelink .noir {
@@ -743,6 +778,7 @@ figcaption {
     width: 97%;
     margin-bottom: 20px;
     gap: 23px;
+    font-size: 135%;
   }
 
   #firstbloc figure img {
@@ -758,6 +794,14 @@ figcaption {
   }
 
   #secondbloc figure img {
+    width: 393px;
+    height: 220px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #secondbloc figure img:nth-child(1) {
     width: 393px;
     height: 220px;
     border-top-left-radius: 25px;
