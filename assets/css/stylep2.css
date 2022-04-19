@@ -603,7 +603,7 @@ figcaption {
   Modifier le body n'est pas avisé
   */
 
-  /*********************************************** Header responsive ************************************/
+  /*********************************************** Header responsive 768px ************************************/
 
   header {
     display: flex;
@@ -648,7 +648,7 @@ figcaption {
 
   /******************************************* Fin du header responsive ************************************/
 
-  /************************************* Début du formulaire responsive *************************************/
+  /************************************* Début du formulaire responsive 768px *************************************/
 
   #searchform h1 {
     font-size: 160%;
@@ -687,7 +687,7 @@ figcaption {
 
   /************************************** Fin du formulaire responsive ***************************************/
 
-  /*************************************** Début du filtre responsive  ************************************/
+  /*************************************** Début du filtre responsive 768px ************************************/
 
   #filtresconteneur {
     flex-flow: row wrap;
@@ -704,15 +704,19 @@ figcaption {
   }
 
   .filtres:nth-child(1) {
-    width: 50%;
+    width: 45%;
   }
 
   .filtres:nth-child(3) {
-    width: 50%;
+    width: 40%;
   }
 
   .filtres:nth-child(4) {
-    width: 71%;
+    width: 55%;
+  }
+
+  .filtres:nth-child(5) {
+    width: 70%;
   }
 
   #iconenote {
@@ -721,7 +725,7 @@ figcaption {
   }
 
   #note {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   /*************************************************** Début section1 responsive **************************************/
@@ -762,6 +766,10 @@ figcaption {
     box-shadow: 0 0px 0px 0px;
   }
 
+  #hebergementmarseille .plus {
+    font-size: 150%;
+    padding-left: 0%;
+  }
   #section2 {
     width: 100%;
   }
@@ -817,7 +825,7 @@ figcaption {
     box-shadow: 0 0px 0px 0px;
   }
 
-  /**************************************** Début du footer responsive *****************************************/
+  /**************************************** Début du footer responsive 768px *****************************************/
 
   #conteneurfooter {
     display: flex;
