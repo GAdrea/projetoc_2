@@ -876,7 +876,7 @@ figcaption {
 /******************************************** Fin de la partie responsive ****************************************/
 
 @media screen and (max-width: 992px) {
-  /*********************************************** Header responsive ************************************/
+  /*********************************************** Header responsive 992px ************************************/
 
   header {
     display: flex;
@@ -885,9 +885,16 @@ figcaption {
     align-items: center;
   }
 
-  #logo img {
+  #logo {
     display: flex;
     justify-content: center;
+    margin: auto;
+    padding-left: 50px;
+  }
+
+  #logo .logo {
+    width: 100%;
+    height: 55px;
   }
 
   #logo .logo {
@@ -913,14 +920,16 @@ figcaption {
 
   /******************************************* Fin du header responsive ************************************/
 
-  /************************************* Début du formulaire responsive *************************************/
+  /************************************* Début du formulaire responsive 992px *************************************/
 
   #searchform h1 {
     font-size: 160%;
+    text-align: center;
   }
 
   #searchform h2 {
     font-size: 120%;
+    text-align: center;
   }
 
   form p {
@@ -932,18 +941,24 @@ figcaption {
   }
 
   #searchform button {
+    color: white;
+    background-color: #0065fc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 42px;
     width: 15%;
-    display: none;
+    font-size: 1.2em;
+    border: none;
   }
 
   #searchform .responsive {
-    display: block;
+    display: none;
     width: 15%;
   }
 
   /************************************** Fin du formulaire responsive ***************************************/
 
-  /*************************************** Début du filtre responsive  ************************************/
+  /*************************************** Début du filtre responsive 992px ************************************/
 
   #filtresconteneur {
     flex-flow: row wrap;
