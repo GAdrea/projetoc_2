@@ -878,6 +878,7 @@ figcaption {
 @media screen and (max-width: 992px) {
   /*********************************************** Header responsive 992px ************************************/
 
+
   header {
     display: flex;
     flex-flow: column wrap;
@@ -897,15 +898,16 @@ figcaption {
     height: 55px;
   }
 
-  #logo .logo {
-    width: 100%;
-    height: 55px;
-  }
-
   #navigation {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+  }
+
+  #navigation ul a:hover {
+    border-bottom: 2px #0065fc solid;
+    padding-bottom: 10px;
   }
 
   #navigation ul li {
@@ -924,12 +926,10 @@ figcaption {
 
   #searchform h1 {
     font-size: 160%;
-    text-align: center;
   }
 
   #searchform h2 {
     font-size: 120%;
-    text-align: center;
   }
 
   form p {
@@ -941,19 +941,22 @@ figcaption {
   }
 
   #searchform button {
-    color: white;
-    background-color: #0065fc;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 42px;
     width: 15%;
-    font-size: 1.2em;
-    border: none;
+    display: none;
   }
 
   #searchform .responsive {
-    display: none;
+    display: block;
+    background: #0065fc url(.responsive);
     width: 15%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .blanc {
+    color: white;
   }
 
   /************************************** Fin du formulaire responsive ***************************************/
@@ -963,6 +966,7 @@ figcaption {
   #filtresconteneur {
     flex-flow: row wrap;
     width: 100%;
+    gap: 10px;
   }
 
   #filtretitre {
@@ -973,7 +977,32 @@ figcaption {
     width: 55%;
   }
 
-  /*************************************************** Début section1 **************************************/
+  .filtres:nth-child(1) {
+    width: 45%;
+  }
+
+  .filtres:nth-child(3) {
+    width: 40%;
+  }
+
+  .filtres:nth-child(4) {
+    width: 55%;
+  }
+
+  .filtres:nth-child(5) {
+    width: 70%;
+  }
+
+  #iconenote {
+    width: 27px;
+    height: 27px;
+  }
+
+  #note {
+    font-size: 18px;
+  }
+
+  /*************************************************** Début section1 responsive 992px **************************************/
 
   #lespluspopulaires {
     width: 100%;
@@ -982,8 +1011,18 @@ figcaption {
     border-radius: 0%;
   }
 
+  #lespluspopulaires .carte {
+    font-size: 100%;
+  }
+
+  #titrelink .noir {
+    padding-right: 23px;
+    font-size: 26px;
+  }
+
   .photoleft {
     width: 90%;
+    height: 150px;
   }
 
   #hebergementmarseille {
@@ -1001,6 +1040,10 @@ figcaption {
     box-shadow: 0 0px 0px 0px;
   }
 
+  #hebergementmarseille .plus {
+    font-size: 150%;
+    padding-left: 0%;
+  }
   #section2 {
     width: 100%;
   }
@@ -1016,6 +1059,8 @@ figcaption {
   #fourthbloc {
     width: 97%;
     margin-bottom: 20px;
+    gap: 23px;
+    font-size: 135%;
   }
 
   #firstbloc figure img {
@@ -1032,13 +1077,29 @@ figcaption {
 
   #secondbloc figure img {
     width: 393px;
-    height: auto;
+    height: 220px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 0 0px 0px 0px;
   }
 
-  /**************************************** Début du footer responsive *****************************************/
+  #secondbloc figure img:nth-child(1) {
+    width: 393px;
+    height: 220px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #thirdbloc figure img {
+    width: 393px;
+    height: 220px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  /**************************************** Début du footer responsive 992px *****************************************/
 
   #conteneurfooter {
     display: flex;
@@ -1056,6 +1117,7 @@ figcaption {
     list-style: none;
     padding-bottom: 0;
     margin: 0;
+    font-size: 130%;
   }
 
   #noshebergements {
@@ -1068,6 +1130,7 @@ figcaption {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 130%;
   }
 
   #assistance {
@@ -1080,6 +1143,7 @@ figcaption {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 130%;
   }
 }
 
