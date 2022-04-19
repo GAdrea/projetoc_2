@@ -59,6 +59,11 @@ figure {
   padding-top: 23px;
 }
 
+#navigation ul li {
+  width: 100%;
+  text-align: center;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -631,6 +636,12 @@ figcaption {
     width: 100%;
   }
 
+  #navigation ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
   #navigation ul a:hover {
     border-bottom: 2px #0065fc solid;
     padding-bottom: 10px;
@@ -639,11 +650,6 @@ figcaption {
   #navigation ul li {
     width: 50%;
     text-align: center;
-  }
-
-  #navigation ul a:hover {
-    border-bottom: 2px #0065fc solid;
-    padding-bottom: 10px;
   }
 
   /******************************************* Fin du header responsive ************************************/
@@ -878,7 +884,6 @@ figcaption {
 @media screen and (max-width: 992px) {
   /*********************************************** Header responsive 992px ************************************/
 
-
   header {
     display: flex;
     flex-flow: column wrap;
@@ -905,19 +910,21 @@ figcaption {
     width: 100%;
   }
 
+  #navigation ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
   #navigation ul a:hover {
     border-bottom: 2px #0065fc solid;
     padding-bottom: 10px;
+    width: 100%;
   }
 
   #navigation ul li {
-    width: 50%;
+    width: 100%;
     text-align: center;
-  }
-
-  #navigation ul a:hover {
-    border-bottom: 2px #0065fc solid;
-    padding-bottom: 10px;
   }
 
   /******************************************* Fin du header responsive ************************************/
