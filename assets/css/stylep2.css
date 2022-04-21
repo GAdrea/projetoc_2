@@ -1155,3 +1155,103 @@ figcaption {
 }
 
 /******************************************** Fin de la partie responsive ****************************************/
+
+/**************************************** Début de la partie responsive tablette (Ipad) ***********************************/
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+  /****************************************** header reponsive tablette (Ipad) ************************************************/
+
+  /* Pas de changement pour le moment */
+
+  /************************************ Fin de la partie responsive tablette (Ipad) **********************************************/
+
+  /************************************* Début du formulaire responsive tablette (Ipad) *************************************/
+
+  #searchform h1 {
+    font-size: 160%;
+    text-align: center;
+  }
+
+  #searchform h2 {
+    font-size: 120%;
+    text-align: center;
+  }
+
+  form p {
+    justify-content: center;
+  }
+
+  #searchform input {
+    width: 50%;
+    text-align: center;
+  }
+
+  #searchform button {
+    width: 15%;
+    display: none;
+  }
+
+  #searchform .responsive {
+    display: block;
+    background: #0065fc url(.responsive);
+    width: 15%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .blanc {
+    color: white;
+  }
+
+  /************************************** Fin du formulaire responsive *****************************************************/
+
+  /*************************************** Début du filtre responsive tablette (Ipad) ************************************/
+
+  #filtresconteneur {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+  }
+
+  #filtretitre {
+    width: 100%;
+  }
+
+  .filtres {
+    width: 35%;
+  }
+
+  .filtres:nth-child(1) {
+    width: 35%;
+  }
+
+  .filtres:nth-child(3) {
+    width: 30%;
+  }
+
+  .filtres:nth-child(4) {
+    width: 35%;
+  }
+
+  .filtres:nth-child(5) {
+    width: 30%;
+  }
+
+  #infonote {
+    justify-content: center;
+  }
+
+  #iconenote {
+    width: 27px;
+    height: 27px;
+  }
+
+  #note {
+    font-size: 18px;
+  }
+
+  /****************************************** Fin de la partie responsive tablette (Ipad) ************************************/
+}
