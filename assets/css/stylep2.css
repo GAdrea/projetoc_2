@@ -776,6 +776,7 @@ figcaption {
     font-size: 150%;
     padding-left: 0%;
   }
+
   #section2 {
     width: 100%;
   }
@@ -1254,4 +1255,23 @@ figcaption {
   }
 
   /****************************************** Fin de la partie responsive tablette (Ipad) ************************************/
+
+  /*************************************************** Début section1 responsive tablette (Ipad) **************************************/
+
+  #hebergementmarseille h3 {
+    text-align: center;
+  }
+
+  .hebergement {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #hebergementmarseille .plus {
+    font-size: 150%;
+    padding-left: 0%;
+    text-align: center;
+  }
 }
