@@ -1258,6 +1258,19 @@ figcaption {
 
   /*************************************************** Début section1 responsive tablette (Ipad) **************************************/
 
+  #lespluspopulaires {
+    width: 80%;
+    padding: 0%;
+    margin: auto;
+    border-radius: 0%;
+  }
+
+  #titrelink {
+    padding-right: 23px;
+    font-size: 26px;
+    text-align: center;
+  }
+
   #hebergementmarseille h3 {
     text-align: center;
   }
@@ -1274,4 +1287,131 @@ figcaption {
     padding-left: 0%;
     text-align: center;
   }
+
+  #section2 {
+    width: 80%;
+    margin: auto;
+  }
+
+  #activitesmarseille h3 {
+    text-align: center;
+  }
+
+  #firstbloc,
+  #secondbloc,
+  #thirdbloc,
+  #fourthbloc {
+    width: 97%;
+    margin-bottom: 20px;
+    gap: 23px;
+    font-size: 135%;
+  }
+
+  #firstbloc figure img {
+    width: 393px;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #secondbloc figure {
+    margin-bottom: 20px;
+  }
+
+  #secondbloc figure img {
+    width: 393px;
+    height: 390px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #secondbloc figure img:nth-child(1) {
+    width: 393px;
+    height: 390px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #thirdbloc figure img {
+    width: 393px;
+    height: 390px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  #fourthbloc figure img {
+    width: 393px;
+    height: 390px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  /**************************************** Début du footer responsive tablette (Ipad) *****************************************/
+
+  #conteneurfooter {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+
+  #apropos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  #apropos h3 {
+    text-align: center;
+  }
+
+  #apropos ul {
+    list-style: none;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 130%;
+  }
+
+  #noshebergements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  #noshebergements h3 {
+    text-align: center;
+  }
+
+  #noshebergements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 130%;
+  }
+
+  #assistance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  #assistance h3 {
+    text-align: center;
+  }
+
+  #assistance ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 130%;
+  }
 }
+
+/******************************************** Fin de la partie responsive ****************************************/
