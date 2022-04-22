@@ -70,7 +70,7 @@ a {
   width: 100%;
 }
 
-a:hover {
+#navigation a:hover {
   color: #0065fc;
 }
 
@@ -542,15 +542,16 @@ figcaption {
   display: flex;
   justify-content: flex-start;
   background-color: #f2f2f2;
-  width: auto;
-  padding-left: 50px;
+  width: 100;
   padding-bottom: 50px;
+  margin-top: 50px;
 }
 
 #apropos {
   display: flex;
   flex-direction: column;
   width: 30%;
+  margin-left: 20px;
 }
 
 #apropos ul {
@@ -679,7 +680,7 @@ figcaption {
 
   #searchform .responsive {
     display: block;
-    background: #0065fc url(.responsive);
+    background: #0065fc;
     width: 15%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -687,7 +688,9 @@ figcaption {
     border-bottom-left-radius: 10px;
   }
 
-  .blanc {
+  /* L'erreur 404 dû au fichier responsive manquant venait dans l'url de la propriété background  */
+
+  .blanc i {
     color: white;
   }
 
@@ -734,7 +737,7 @@ figcaption {
     font-size: 18px;
   }
 
-  /*************************************************** Début section1 responsive **************************************/
+  /*************************************************** Début section1 responsive 768 px **************************************/
 
   #lespluspopulaires {
     width: 100%;
@@ -844,6 +847,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin: 0;
   }
 
   #apropos ul {
@@ -880,9 +884,11 @@ figcaption {
   }
 }
 
-/******************************************** Fin de la partie responsive ****************************************/
+/******************************************** Fin de la partie responsive 768px ****************************************/
 
-@media screen and (max-width: 992px) {
+/******************************************** Début de la partie responsive 992px ****************************************/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
   /*********************************************** Header responsive 992px ************************************/
 
   header {
@@ -955,7 +961,7 @@ figcaption {
 
   #searchform .responsive {
     display: block;
-    background: #0065fc url(.responsive);
+    background: #0065fc;
     width: 15%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -1115,248 +1121,8 @@ figcaption {
     width: 100%;
   }
 
-  #apropos {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #apropos ul {
-    list-style: none;
-    padding-bottom: 0;
-    margin: 0;
-    font-size: 130%;
-  }
-
-  #noshebergements {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #noshebergements ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 130%;
-  }
-
-  #assistance {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #assistance ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 130%;
-  }
-}
-
-/******************************************** Fin de la partie responsive ****************************************/
-
-/**************************************** Début de la partie responsive tablette (Ipad) ***********************************/
-
-@media screen and (min-width: 820px) and (max-width: 1180px) {
-  /****************************************** header reponsive tablette (Ipad) ************************************************/
-
-  /* Pas de changement pour le moment */
-
-  /************************************ Fin de la partie responsive tablette (Ipad) **********************************************/
-
-  /************************************* Début du formulaire responsive tablette (Ipad) *************************************/
-
-  #searchform h1 {
-    font-size: 160%;
+  #conteneurfooter h3{
     text-align: center;
-  }
-
-  #searchform h2 {
-    font-size: 120%;
-    text-align: center;
-  }
-
-  form p {
-    justify-content: center;
-  }
-
-  #searchform input {
-    width: 50%;
-    text-align: center;
-  }
-
-  #searchform button {
-    width: 15%;
-    display: none;
-  }
-
-  #searchform .responsive {
-    display: block;
-    background: #0065fc url(.responsive);
-    width: 15%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-  }
-
-  .blanc {
-    color: white;
-  }
-
-  /************************************** Fin du formulaire responsive *****************************************************/
-
-  /*************************************** Début du filtre responsive tablette (Ipad) ************************************/
-
-  #filtresconteneur {
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    gap: 10px;
-  }
-
-  #filtretitre {
-    width: 100%;
-  }
-
-  .filtres {
-    width: 35%;
-  }
-
-  .filtres:nth-child(1) {
-    width: 35%;
-  }
-
-  .filtres:nth-child(3) {
-    width: 30%;
-  }
-
-  .filtres:nth-child(4) {
-    width: 35%;
-  }
-
-  .filtres:nth-child(5) {
-    width: 30%;
-  }
-
-  #infonote {
-    justify-content: center;
-  }
-
-  #iconenote {
-    width: 27px;
-    height: 27px;
-  }
-
-  #note {
-    font-size: 18px;
-  }
-
-  /****************************************** Fin de la partie responsive tablette (Ipad) ************************************/
-
-  /*************************************************** Début section1 responsive tablette (Ipad) **************************************/
-
-  #lespluspopulaires {
-    width: 80%;
-    padding: 0%;
-    margin: auto;
-    border-radius: 0%;
-  }
-
-  #titrelink {
-    padding-right: 23px;
-    font-size: 26px;
-    text-align: center;
-  }
-
-  #hebergementmarseille h3 {
-    text-align: center;
-  }
-
-  .hebergement {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 10px;
-    box-shadow: 0 0px 0px 0px;
-  }
-
-  #hebergementmarseille .plus {
-    font-size: 150%;
-    padding-left: 0%;
-    text-align: center;
-  }
-
-  #section2 {
-    width: 80%;
-    margin: auto;
-  }
-
-  #activitesmarseille h3 {
-    text-align: center;
-  }
-
-  #firstbloc,
-  #secondbloc,
-  #thirdbloc,
-  #fourthbloc {
-    width: 97%;
-    margin-bottom: 20px;
-    gap: 23px;
-    font-size: 135%;
-  }
-
-  #firstbloc figure img {
-    width: 393px;
-    height: auto;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    box-shadow: 0 0px 0px 0px;
-  }
-
-  #secondbloc figure {
-    margin-bottom: 20px;
-  }
-
-  #secondbloc figure img {
-    width: 393px;
-    height: 390px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    box-shadow: 0 0px 0px 0px;
-  }
-
-  #secondbloc figure img:nth-child(1) {
-    width: 393px;
-    height: 390px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    box-shadow: 0 0px 0px 0px;
-  }
-
-  #thirdbloc figure img {
-    width: 393px;
-    height: 390px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    box-shadow: 0 0px 0px 0px;
-  }
-
-  #fourthbloc figure img {
-    width: 393px;
-    height: 390px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    box-shadow: 0 0px 0px 0px;
-  }
-
-  /**************************************** Début du footer responsive tablette (Ipad) *****************************************/
-
-  #conteneurfooter {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
   }
 
   #apropos {
@@ -1366,26 +1132,19 @@ figcaption {
     width: 90%;
   }
 
-  #apropos h3 {
-    text-align: center;
-  }
-
   #apropos ul {
     list-style: none;
     padding-bottom: 0;
     margin: 0;
     font-size: 130%;
+    text-align: center;
   }
 
   #noshebergements {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 90%;
-  }
-
-  #noshebergements h3 {
-    text-align: center;
+    align-items: center;
   }
 
   #noshebergements ul {
@@ -1393,6 +1152,7 @@ figcaption {
     padding: 0;
     margin: 0;
     font-size: 130%;
+    text-align: center;
   }
 
   #assistance {
@@ -1402,16 +1162,13 @@ figcaption {
     width: 90%;
   }
 
-  #assistance h3 {
-    text-align: center;
-  }
-
   #assistance ul {
     list-style: none;
     padding: 0;
     margin: 0;
     font-size: 130%;
+    text-align: center;
   }
 }
 
-/******************************************** Fin de la partie responsive ****************************************/
+/******************************************** Fin de la partie responsive 992px ****************************************/
