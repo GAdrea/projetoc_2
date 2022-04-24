@@ -797,7 +797,7 @@ figcaption {
 
   #firstbloc figure img {
     width: 393px;
-    height: auto;
+    height: 220px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 0 0px 0px 0px;
@@ -1025,8 +1025,14 @@ figcaption {
     border-radius: 0%;
   }
 
+  #lespluspopulaires h3 {
+    text-align: center;
+  }
+
   #lespluspopulaires .carte {
     font-size: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   #titrelink .noir {
