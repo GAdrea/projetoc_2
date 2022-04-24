@@ -852,6 +852,8 @@ figcaption {
     flex-direction: column;
     width: 90%;
     margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   #apropos ul {
@@ -865,6 +867,8 @@ figcaption {
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   #noshebergements ul {
@@ -878,6 +882,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-left: 20px;
   }
 
   #assistance ul {
