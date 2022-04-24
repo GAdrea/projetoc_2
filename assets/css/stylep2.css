@@ -45,6 +45,10 @@ figure {
   width: 50%;
 }
 
+#navigation {
+  display: flex;
+}
+
 #navigation ul {
   list-style: none;
   display: flex;
@@ -54,14 +58,8 @@ figure {
   padding-right: 29px;
 }
 
-#navigation ul a:hover {
+#navigation .navilien:hover {
   border-top: 2px #0065fc solid;
-  padding-top: 23px;
-}
-
-#navigation ul li {
-  width: 100%;
-  text-align: center;
 }
 
 a {
@@ -606,7 +604,7 @@ figcaption {
     width: auto;
     height: auto;
   }
-  Modifier le body n'est pas avisé
+  Modifier le body n'est pas conseillé
   */
 
   /*********************************************** Header responsive 768px ************************************/
@@ -632,25 +630,15 @@ figcaption {
 
   #navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
   }
 
-  #navigation ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  #navigation ul a:hover {
+  #navigation .navilien:hover {
     border-bottom: 2px #0065fc solid;
-    padding-bottom: 10px;
-  }
-
-  #navigation ul li {
-    width: 50%;
-    text-align: center;
+    border-top: 0;
+    width: 90%;
   }
 
   /******************************************* Fin du header responsive ************************************/
@@ -690,7 +678,7 @@ figcaption {
 
   /* L'erreur 404 dû au fichier responsive manquant venait dans l'url de la propriété background  */
 
-  .blanc i {
+  .responsive i {
     color: white;
   }
 
@@ -768,6 +756,11 @@ figcaption {
     background-color: white;
   }
 
+  #hebergementmarseille h3 {
+    padding-bottom: 10px;
+    padding-left: 6px;
+  }
+
   .hebergement {
     width: 100%;
     margin: 0%;
@@ -779,6 +772,10 @@ figcaption {
     font-size: 150%;
     padding-left: 0%;
   }
+
+  /*************************************************** Fin de la section1 responsive 768 px **************************************/
+
+  /******************************************************** Début de la section2 responsive 768px *******************************************/
 
   #section2 {
     width: 100%;
@@ -795,7 +792,6 @@ figcaption {
   #fourthbloc {
     width: 97%;
     margin-bottom: 20px;
-    gap: 23px;
     font-size: 135%;
   }
 
@@ -805,6 +801,10 @@ figcaption {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 0 0px 0px 0px;
+  }
+
+  #secondbloc {
+    margin-bottom: 2px;
   }
 
   #secondbloc figure {
@@ -833,6 +833,10 @@ figcaption {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 0 0px 0px 0px;
+  }
+
+  #fourthbloc {
+    gap: 20px;
   }
 
   /**************************************** Début du footer responsive 768px *****************************************/
@@ -923,16 +927,14 @@ figcaption {
     justify-content: space-between;
   }
 
-  #navigation ul a:hover {
+  #navigation .navilien:hover {
     border-bottom: 2px #0065fc solid;
     padding-bottom: 10px;
+    border-top: 0;
     width: 100%;
   }
 
-  #navigation ul li {
-    width: 100%;
-    text-align: center;
-  }
+
 
   /******************************************* Fin du header responsive ************************************/
 
@@ -969,7 +971,7 @@ figcaption {
     border-bottom-left-radius: 10px;
   }
 
-  .blanc {
+  .responsive i {
     color: white;
   }
 
@@ -1121,7 +1123,7 @@ figcaption {
     width: 100%;
   }
 
-  #conteneurfooter h3{
+  #conteneurfooter h3 {
     text-align: center;
   }
 
@@ -1130,6 +1132,7 @@ figcaption {
     flex-direction: column;
     align-items: center;
     width: 90%;
+    margin-left: 0;
   }
 
   #apropos ul {

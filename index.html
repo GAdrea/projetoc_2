@@ -20,12 +20,21 @@
       </div>
 
       <nav id="navigation">
-        <ul>
-          <li>
-            <a href="#hebergementmarseille">Hébergements</a>
-          </li>
-          <li><a href="#activitesmarseille">Activités</a></li>
-        </ul>
+        <div class="navilien">
+          <a href="#hebergementmarseille">
+            <ul>
+              <li>Hébergements</li>
+            </ul>
+          </a>
+        </div>
+
+        <div class="navilien">
+          <a href="#activitesmarseille">
+            <ul>
+              <li>Activités</li>
+            </ul>
+          </a>
+        </div>
       </nav>
 
       <!-- fin de l'élément en-tête -->
@@ -50,11 +59,11 @@
                 id="location"
                 placeholder="Marseille,France"
               />
-              <button type="submit">Rechercher</button>
+              <button type="submit">
+                <span class="rechercher">Rechercher</span>
+              </button>
               <button class="responsive" type="submit">
-                <span class="blanc">
-                  <i class="fa-solid fa-magnifying-glass"></i
-                ></span>
+                <i class="fa-solid fa-magnifying-glass"></i>
               </button>
 
               <!-- balise <a></a> sur un bouton inutile. à ne pas refaire -->
