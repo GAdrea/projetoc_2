@@ -542,7 +542,7 @@ figcaption {
   background-color: #f2f2f2;
   width: 100;
   padding-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 #apropos {
@@ -768,7 +768,7 @@ figcaption {
     width: 100%;
     margin: 0%;
     margin-bottom: 10px;
-    box-shadow: 0 0px 0px 0px;
+    box-shadow: 1 0px 0px 0px gray;
   }
 
   #hebergementmarseille .plus {
@@ -956,6 +956,11 @@ figcaption {
     font-size: 120%;
   }
 
+  #searchform h1,
+  #searchform h2 {
+    text-align: center;
+  }
+
   form p {
     justify-content: center;
   }
@@ -998,7 +1003,7 @@ figcaption {
   }
 
   .filtres {
-    width: 55%;
+    width: 40%;
   }
 
   .filtres:nth-child(1) {
@@ -1006,15 +1011,20 @@ figcaption {
   }
 
   .filtres:nth-child(3) {
-    width: 40%;
+    width: 35%;
   }
 
   .filtres:nth-child(4) {
-    width: 55%;
+    width: 40%;
   }
 
   .filtres:nth-child(5) {
-    width: 70%;
+    width: 35%;
+  }
+
+  #infonote {
+    display: flex;
+    justify-content: center;
   }
 
   #iconenote {
