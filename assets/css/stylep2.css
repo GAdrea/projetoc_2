@@ -2,7 +2,7 @@
 /* Les balises seront écrites dans l'ordre d'arrivée selon le code html (Note: commentaire inutile étant donné les propriétés du CSS */
 
 * {
-  font-family: "raleway", "ralewayvariable" "Times New Roman", Times, serif;
+  font-family: "raleway", "ralewayvariable", "Times New Roman", Times, serif;
   scroll-behavior: smooth;
 }
 
@@ -540,7 +540,7 @@ figcaption {
   display: flex;
   justify-content: flex-start;
   background-color: #f2f2f2;
-  width: 100;
+  width: 100%;
   padding-bottom: 50px;
   margin-top: 80px;
 }
@@ -768,7 +768,7 @@ figcaption {
     width: 100%;
     margin: 0%;
     margin-bottom: 10px;
-    box-shadow: 1 0px 0px 0px gray;
+    box-shadow: 0 0px 0px 0px gray;
   }
 
   #hebergementmarseille .plus {
