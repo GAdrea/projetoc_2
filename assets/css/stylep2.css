@@ -17,7 +17,7 @@
 }
 
 body {
-  margin: 0%;
+  margin: 0;
 }
 
 figure {
@@ -635,6 +635,10 @@ figcaption {
     width: 100%;
   }
 
+  .navilien {
+    width: 100%;
+  }
+
   #navigation .navilien:hover {
     border-bottom: 2px #0065fc solid;
     border-top: 0;
@@ -926,16 +930,18 @@ figcaption {
   }
 
   #navigation ul {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+  }
+
+  .navilien {
+    width: 100%;
   }
 
   #navigation .navilien:hover {
     border-bottom: 2px #0065fc solid;
     padding-bottom: 10px;
     border-top: 0;
-    width: 100%;
   }
 
   /******************************************* Fin du header responsive ************************************/
