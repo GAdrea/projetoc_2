@@ -630,7 +630,7 @@ figcaption {
   }
 
   #searchform h2 {
-    font-size: 120%;
+    font-size: 112%;
   }
 
   form p {
@@ -638,7 +638,8 @@ figcaption {
   }
 
   #searchform input {
-    width: 50%;
+    width: 70%;
+    padding-left: 15px;
   }
 
   #searchform button {
@@ -702,7 +703,7 @@ figcaption {
   }
 
   #note {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /*************************************************** Début section1 responsive 768 px **************************************/
