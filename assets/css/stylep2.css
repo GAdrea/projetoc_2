@@ -13,6 +13,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 figure {
@@ -710,8 +711,8 @@ figcaption {
 
   #lespluspopulaires {
     width: 100%;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     border-radius: 0%;
   }
 
@@ -729,6 +730,14 @@ figcaption {
     height: 150px;
   }
 
+  #lespluspopulaires .carte .textenotation h4 {
+    margin-bottom: -9px;
+  }
+
+  #lespluspopulaires .carte .textenotation .rang {
+    margin-top: 22px;
+  }
+
   #hebergementmarseille {
     order: 2;
     width: 95%;
@@ -743,7 +752,7 @@ figcaption {
   }
 
   .hebergement {
-    width: 100%;
+    width: 97%;
     margin: 0%;
     margin-bottom: 10px;
     box-shadow: 0 0px 0px 0px gray;
