@@ -11,6 +11,11 @@
   src: url(../../fonts/Raleway-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: Ralewaybold;
+  src: url(../../fonts/static/Raleway-Bold.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -90,6 +95,7 @@ main {
 
 h1 {
   font-size: 2em;
+  font-family: Ralewaybold;
 }
 
 h2 {
@@ -190,6 +196,7 @@ form p label i {
 #filtretitre {
   font-weight: bold;
   font-size: 23px;
+  font-family: Ralewaybold;
 }
 
 .filtres div {
@@ -204,6 +211,7 @@ form p label i {
   color: black;
   padding-left: 10px;
   font-size: 19px;
+  font-family: Ralewaybold;
 }
 
 .dot {
@@ -575,10 +583,7 @@ figcaption {
 @media screen and (max-width: 768px) {
   /*
   body {
-    display: flex;
-    flex-flow: column wrap;
-    width: auto;
-    height: auto;
+ margin:0;
   }
   Modifier le body n'est pas conseillé
   */
@@ -590,6 +595,7 @@ figcaption {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
   #logo {
@@ -625,11 +631,11 @@ figcaption {
   /************************************* Début du formulaire responsive 768px *************************************/
 
   #searchform h1 {
-    font-size: 160%;
+    font-size: 140%;
   }
 
   #searchform h2 {
-    font-size: 112%;
+    font-size: 100%;
   }
 
   form {
@@ -676,12 +682,10 @@ figcaption {
     gap: 10px;
   }
 
-  #filtretitre {
+  #filtresconteneur #filtretitre {
     width: 100%;
-  }
-
-  #filtretitre {
     margin-bottom: 0;
+    font-size: 130%;
   }
 
   .filtres {
