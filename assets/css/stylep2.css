@@ -233,10 +233,10 @@ form p label i {
   display: flex;
   gap: 20px;
   height: auto;
-  width: 100%;
+  width: 60%;
   align-items: center;
   padding-bottom: 30px;
-  padding-left: 17px;
+  padding-left: 20px;
 }
 
 .info {
@@ -599,6 +599,10 @@ figcaption {
   margin-top: 80px;
 }
 
+#conteneurfooter h3 {
+  font-family: Ralewaybold;
+}
+
 #apropos {
   display: flex;
   flex-direction: column;
@@ -700,6 +704,10 @@ figcaption {
 
   /************************************* Début du formulaire responsive 768px *************************************/
 
+  #section0 {
+    padding: 0;
+  }
+
   #searchform h1 {
     font-size: 140%;
   }
@@ -740,6 +748,11 @@ figcaption {
 
   .responsive i {
     color: white;
+  }
+
+  #infonote {
+    width: 100%;
+    padding: 0;
   }
 
   /************************************** Fin du formulaire responsive ***************************************/
@@ -801,26 +814,21 @@ figcaption {
     border-radius: 0%;
   }
 
+  #lespluspopulaires h4 {
+    font-size: 110%;
+  }
+
   #lespluspopulaires .carte {
     font-size: 100%;
   }
 
-  #titrelink .noir {
-    padding-right: 23px;
-    font-size: 26px;
+  .textenotation .rang {
+    margin-top: 10px;
   }
 
   .photoleft {
     width: 90%;
     height: 150px;
-  }
-
-  #lespluspopulaires .carte .textenotation h4 {
-    margin-bottom: -9px;
-  }
-
-  #lespluspopulaires .carte .textenotation .rang {
-    margin-top: 22px;
   }
 
   #hebergementmarseille {
@@ -840,7 +848,11 @@ figcaption {
     width: 97%;
     margin: 0%;
     margin-bottom: 10px;
-    box-shadow: 0 0px 0px 0px gray;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 1px 1px 1px lightgray;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
   #hebergementmarseille .plus {
@@ -854,6 +866,7 @@ figcaption {
 
   #section2 {
     width: 100%;
+    padding: 0;
   }
 
   #activitesmarseille {
@@ -865,7 +878,7 @@ figcaption {
   #secondbloc,
   #thirdbloc,
   #fourthbloc {
-    width: 97%;
+    width: 100%;
     margin-bottom: 20px;
     font-size: 135%;
   }
