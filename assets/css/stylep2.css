@@ -710,8 +710,17 @@ figcaption {
 
   /************************************* Début du formulaire responsive 768px *************************************/
 
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* La solution était vraiment toute bête pour résoudre ce problème de marge dans la version responsive  */
+
   #section0 {
     padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #searchform h1 {
@@ -897,13 +906,19 @@ figcaption {
     width: 100%;
   }
 
+  #activitesmarseille h3 {
+    padding-left: 20px;
+    width: 85%;
+  }
+
   #firstbloc,
   #secondbloc,
   #thirdbloc,
   #fourthbloc {
-    width: 98%;
+    width: 95%;
     margin-bottom: 20px;
     font-size: 135%;
+    padding-left: 10px;
   }
 
   #firstbloc figure,
