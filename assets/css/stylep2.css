@@ -42,7 +42,7 @@ figure {
 #headerconteneur {
   display: flex;
   justify-content: space-between;
-  padding-left: 20px;
+  padding-left: 33px;
   padding-right: 20px;
 }
 
@@ -78,9 +78,9 @@ a {
   color: #0065fc;
 }
 
-/********************************* Fin de la partie 1  ************************************/
+/*************************************************** Fin de la partie 1  **********************************************************/
 
-/******************************** Partie 2: Corps de la page ******************************/
+/*********************************************** Partie 2: Corps de la page ********************************************************/
 
 main {
   display: flex;
@@ -251,7 +251,8 @@ form p label i {
   border: 2px #dbdbdb solid;
   border-radius: 50%;
   height: auto;
-  width: 1%;
+  width: 2%;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,7 +295,7 @@ form p label i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 3px 3px 3px lightgray;
+  box-shadow: 0 0 20px rgb(199, 196, 196);
   width: 28%;
   height: 230px;
   margin: 3px;
@@ -325,7 +326,7 @@ form p label i {
   padding-top: 20px;
   margin: 0%;
   padding-bottom: 20px;
-  font-family: Ralewayboldextra;
+  font-family: Ralewaybold;
 }
 
 .hebergement h4 {
@@ -377,7 +378,7 @@ i {
 }
 
 #lespluspopulaires h3 {
-  font-family: Ralewayboldextra;
+  font-family: Ralewaybold;
 }
 
 #lespluspopulaires h4 {
@@ -459,7 +460,7 @@ i {
 }
 
 #activitesmarseille h3 {
-  font-family: Ralewayboldextra;
+  font-family: Ralewaybold;
 }
 
 #activitesmarseille figure {
@@ -496,7 +497,7 @@ figcaption {
 #firstbloc figure {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  box-shadow: 0 1px 1px 1px lightgray;
+  box-shadow: 0 0 20px rgb(199, 196, 196);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -523,16 +524,20 @@ figcaption {
 #secondbloc figure {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  box-shadow: 0 1px 1px 1px lightgray;
+  box-shadow: 0 0 20px rgb(199, 196, 196);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
 #secondbloc figure img {
   width: 450px;
-  height: 221px;
+  height: 260px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+}
+
+#secondbloc figure #frioul {
+  height: 172px;
 }
 
 #thirdbloc {
@@ -548,7 +553,7 @@ figcaption {
 #thirdbloc figure {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  box-shadow: 0 1px 1px 1px lightgray;
+  box-shadow: 0 0 20px rgb(199, 196, 196);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -574,14 +579,14 @@ figcaption {
 #fourthbloc figure {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  box-shadow: 0 1px 1px 1px lightgray;
+  box-shadow: 0 0 20px rgb(199, 196, 196);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
 #fourthbloc figure img {
   width: 390px;
-  height: 221px;
+  height: 210px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
