@@ -481,6 +481,7 @@ figcaption {
   border-bottom-right-radius: 15px;
   background-color: white;
   font-weight: bold;
+  padding-top: 10px;
   padding-bottom: 15px;
   padding-left: 15px;
   font-family: Ralewaybold;
