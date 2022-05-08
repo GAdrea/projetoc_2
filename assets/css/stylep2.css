@@ -56,15 +56,6 @@ figure {
   gap: 50px;
 }
 
-#navigation ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-  font-size: 18px;
-  padding-right: 29px;
-}
-
 #navigation .navilien:hover {
   border-top: 2px #0065fc solid;
 }
