@@ -53,6 +53,7 @@ figure {
 
 #navigation {
   display: flex;
+  gap: 50px;
 }
 
 #navigation ul {
@@ -697,6 +698,10 @@ figcaption {
     width: 100%;
   }
 
+  #navigation p {
+    text-align: center;
+  }
+
   .navilien {
     width: 100%;
   }
@@ -1062,7 +1067,7 @@ figcaption {
     width: 100%;
   }
 
-  #navigation ul {
+  #navigation p {
     display: flex;
     justify-content: center;
   }
