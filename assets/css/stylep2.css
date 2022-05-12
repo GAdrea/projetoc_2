@@ -28,7 +28,14 @@ body {
 
 figure {
   margin: 0;
+  object-fit: cover;
 }
+
+img {
+  object-fit: cover;
+}
+
+/* La propriété objet-fit permet d'ajuster la taille d'une image en fonction de la largeur du bloc qui la contient */
 
 #searchform,
 #filtresconteneur,
