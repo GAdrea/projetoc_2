@@ -199,6 +199,12 @@ form p label i {
   min-width: fit-content;
 }
 
+.filtres:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 #filtretitre {
   font-weight: bold;
   font-size: 23px;
