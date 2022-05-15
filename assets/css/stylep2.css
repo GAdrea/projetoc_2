@@ -321,8 +321,6 @@ form p label i {
   height: 92px;
   display: flex;
   flex-direction: column;
-  min-width: fit-content;
-  max-width: fit-content;
 }
 
 .description .rang .gris i {
