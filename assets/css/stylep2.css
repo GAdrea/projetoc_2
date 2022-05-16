@@ -715,6 +715,10 @@ figcaption {
     border-top: 0;
   }
 
+  #navigation .navilien:visited {
+    border-bottom: 2px gray solid;
+  }
+
   /******************************************* Fin du header responsive ************************************/
 
   /************************************* Début du formulaire responsive 768px *************************************/
