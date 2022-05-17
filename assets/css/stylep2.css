@@ -185,18 +185,22 @@ form p label i {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 70%;
+  width: 67%;
 }
 
 .filtres {
   height: 50px;
   border: 1px rgb(211, 211, 211) solid;
   border-radius: 100px;
-  width: 19%;
+  width: 18%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   min-width: fit-content;
+}
+
+.filtres:nth-child(5) {
+  width: 24%;
 }
 
 .filtres:hover {
@@ -816,7 +820,7 @@ figcaption {
   }
 
   .filtres:nth-child(5) {
-    width: 70%;
+    width: 65%;
   }
 
   #iconenote {
