@@ -315,8 +315,9 @@ form p label i {
   align-items: center;
   box-shadow: 0 0 20px rgb(199, 196, 196);
   width: 28%;
+  min-width: 28%;
   height: 230px;
-  margin: 3px;
+  margin: auto;
   background-color: white;
   border-radius: 10%;
   border: 5px solid white;
@@ -332,6 +333,8 @@ form p label i {
   height: 92px;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  min-width: 220px;
 }
 
 .description .rang .gris i {
