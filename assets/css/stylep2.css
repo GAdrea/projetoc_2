@@ -28,12 +28,13 @@ body {
 
 figure {
   margin: 0;
+  transition: all 500ms ease-in-out;
 }
 
 figure:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 img {
@@ -161,6 +162,7 @@ form p label i {
 #searchform input {
   height: 42px;
   width: 15%;
+  min-width: fit-content;
   border: 0.1px solid rgb(238, 233, 233);
 }
 
@@ -212,9 +214,8 @@ form p label i {
 }
 
 .filtres:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  background-color: rgba(222, 235, 255, 255);
+  transition: all 500ms ease-in-out;
 }
 
 #filtretitre {
@@ -329,12 +330,13 @@ form p label i {
   background-color: white;
   border-radius: 10%;
   border: 5px solid white;
+  transition: all 500ms ease-in-out;
 }
 
 .hebergement:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .hebergement > div {
@@ -428,9 +430,10 @@ i {
 }
 
 .carte:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 500ms ease-in-out;
 }
 
 .photoleft {
@@ -885,6 +888,10 @@ figcaption {
     border-radius: 0%;
   }
 
+  .carte:hover {
+    transform: none;
+  }
+
   #titrelink h3 {
     font-size: 137%;
     margin-bottom: 15px;
@@ -938,6 +945,10 @@ figcaption {
     border: 1px solid white;
   }
 
+  .hebergement:hover {
+    transform: none;
+  }
+
   .apercu {
     height: 130px;
     width: 100%;
@@ -965,6 +976,10 @@ figcaption {
   #activitesmarseille h3 {
     padding-left: 20px;
     width: 85%;
+  }
+
+  figure:hover {
+    transform: none;
   }
 
   #firstbloc,
@@ -1241,6 +1256,10 @@ figcaption {
     border-radius: 0%;
   }
 
+  .carte:hover {
+    transform: none;
+  }
+
   #lespluspopulaires h3 {
     text-align: center;
     font-size: 200%;
@@ -1286,6 +1305,10 @@ figcaption {
     text-align: center;
   }
 
+  .hebergement:hover {
+    transform: none;
+  }
+
   .apercu {
     height: 250px;
   }
@@ -1307,6 +1330,10 @@ figcaption {
   #activitesmarseille h3 {
     text-align: center;
     font-size: 200%;
+  }
+
+  figure:hover {
+    transform: none;
   }
 
   #firstbloc,
