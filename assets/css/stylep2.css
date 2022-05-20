@@ -172,6 +172,7 @@ form p label i {
   border-bottom-right-radius: 10px;
   height: 42px;
   width: 9%;
+  min-width: fit-content;
   font-size: 1.2em;
   border: none;
 }
@@ -186,6 +187,7 @@ form p label i {
   align-items: center;
   flex-wrap: wrap;
   width: 67%;
+  min-width: 67%;
 }
 
 .filtres {
@@ -316,7 +318,7 @@ form p label i {
   align-items: center;
   box-shadow: 0 0 20px rgb(199, 196, 196);
   width: 28%;
-  height: 230px;
+  height: 238px;
   margin: auto;
   background-color: white;
   border-radius: 10%;
@@ -704,6 +706,10 @@ figcaption {
     margin: 0;
   }
 
+  #headerconteneur {
+    padding: 0;
+  }
+
   #logo {
     display: flex;
     justify-content: center;
@@ -721,6 +727,7 @@ figcaption {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap: 0;
   }
 
   #navigation p {
@@ -729,15 +736,12 @@ figcaption {
 
   .navilien {
     width: 100%;
+    border-bottom: 2px #f2f2f2 solid;
   }
 
   #navigation .navilien:hover {
     border-bottom: 2px #0065fc solid;
     border-top: 0;
-  }
-
-  #navigation .navilien:visited {
-    border-bottom: 2px gray solid;
   }
 
   /******************************************* Fin du header responsive ************************************/
@@ -786,7 +790,7 @@ figcaption {
   #searchform .responsive {
     display: block;
     background: #0065fc;
-    width: 15%;
+    width: 11%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -810,7 +814,7 @@ figcaption {
 
   #filtresconteneur {
     flex-flow: row wrap;
-    width: 100%;
+    width: 97%;
     gap: 10px;
   }
 
@@ -1077,6 +1081,10 @@ figcaption {
     align-items: center;
   }
 
+  #headerconteneur {
+    padding: 0;
+  }
+
   #logo {
     display: flex;
     justify-content: center;
@@ -1103,6 +1111,8 @@ figcaption {
 
   .navilien {
     width: 100%;
+    border-bottom: 2px #f2f2f2 solid;
+    gap: 0;
   }
 
   #navigation .navilien:hover {
@@ -1161,7 +1171,7 @@ figcaption {
 
   #filtresconteneur {
     flex-flow: row wrap;
-    width: 100%;
+    width: 97%;
     gap: 10px;
   }
 
