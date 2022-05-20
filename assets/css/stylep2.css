@@ -334,7 +334,7 @@ form p label i {
   display: flex;
   flex-direction: column;
   margin: auto;
-  min-width: 220px;
+  min-width: auto;
 }
 
 .description .rang .gris i {
@@ -395,7 +395,7 @@ i {
   padding-top: 0%;
   width: 29%;
   height: auto;
-  min-width: 315px;
+  min-width: 29%;
 }
 
 #lespluspopulaires h3 {
@@ -404,7 +404,7 @@ i {
 
 #lespluspopulaires h4 {
   font-family: Ralewaybold;
-  font-size: 120%;
+  font-size: 110%;
 }
 
 #lespluspopulaires #titrelink .noir i {
@@ -421,11 +421,13 @@ i {
   padding: 5px;
   height: 171px;
   width: 87%;
-  min-width: 314px;
+  min-width: 87%;
+  box-sizing: border-box;
 }
 
 .aperculeft {
   width: 45%;
+  min-width: 45%;
   height: auto;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -436,17 +438,18 @@ i {
   flex-direction: column;
   width: 46%;
   height: auto;
-  padding-left: 10px;
-  margin: auto;
-  min-width: 168px;
+  margin-top: -15px;
+  margin-left: 10px;
+  min-width: 46%;
 }
 
 .textenotation p {
-  margin-top: -16px;
+  margin-top: -17px;
+  margin-bottom: auto;
 }
 
 .textenotation .rang {
-  margin-top: 30px;
+  margin-top: auto;
 }
 
 .textenotation p .gris i {
