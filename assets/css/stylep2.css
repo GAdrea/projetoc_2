@@ -30,6 +30,12 @@ figure {
   margin: 0;
 }
 
+figure:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 img {
   object-fit: cover;
 }
@@ -325,6 +331,12 @@ form p label i {
   border: 5px solid white;
 }
 
+.hebergement:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .hebergement > div {
   width: 100%;
   height: auto;
@@ -413,6 +425,12 @@ i {
   color: black;
   padding-right: 60px;
   font-size: 160%;
+}
+
+.carte:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .photoleft {
