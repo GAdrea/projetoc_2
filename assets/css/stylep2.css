@@ -182,6 +182,7 @@ form p label i {
   width: 9%;
   min-width: fit-content;
   font-size: 1.2em;
+  font-weight: bold;
   border: none;
 }
 
